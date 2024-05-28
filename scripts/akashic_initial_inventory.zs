@@ -1,5 +1,5 @@
 // Initial Inventory
-mods.initialinventory.InvHandler.addStartingItem(<enchiridion:book>.withTag({identifier: "logistical_lexicon"}), 0);
+mods.initialinventory.InvHandler.addStartingItem(<enchiridion:book>.withTag({identifier: "Logistical_Lexicon"}), 0);
 mods.initialinventory.InvHandler.addStartingItem(<pickletweaks:wooden_paxel>.withTag({Unbreakable: 1 as byte, Quality: {}, display: {Lore: ["§6A bit of beginners' luck."]}}), 1);
 mods.initialinventory.InvHandler.addStartingItem(<cyclicmagic:sleeping_mat>, 5);
 mods.initialinventory.InvHandler.addStartingItem(<ftbquests:book>, 6);

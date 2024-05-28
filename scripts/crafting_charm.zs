@@ -8,3 +8,10 @@ recipes.addShaped(<charm:crate:4>, [[<ore:nuggetIron>, <minecraft:planks:4>, <or
 recipes.addShaped(<charm:crate:5>, [[<ore:nuggetIron>, <minecraft:planks:5>, <ore:nuggetIron>], [<minecraft:planks:5>, null, <minecraft:planks:5>], [<ore:nuggetIron>, <minecraft:planks:5>, <ore:nuggetIron>]]);
 
 recipes.addShapeless(<minecraft:gunpowder> * 9, [<charm:gunpowder_block>]);
+
+//Adding oredict recipe for the oak variant so that other wood types can fall back on it
+recipes.addShaped(<charm:crate>,
+[[<ore:nuggetIron>,<ore:plankWood>,<ore:nuggetIron>],
+[<ore:plankWood>,null,<ore:plankWood>],
+[<ore:nuggetIron>,<ore:plankWood>,<ore:nuggetIron>]
+]);

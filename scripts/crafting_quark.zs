@@ -34,3 +34,20 @@ recipes.addShapeless(<quark:rune:12>, [<quark:rune:*>, <ore:dyeBrown>]);
 recipes.addShapeless(<quark:rune:13>, [<quark:rune:*>, <ore:dyeGreen>]);
 recipes.addShapeless(<quark:rune:14>, [<quark:rune:*>, <ore:dyeRed>]);
 recipes.addShapeless(<quark:rune:15>, [<quark:rune:*>, <ore:dyeBlack>]);
+
+//Fallback recipes for non-vanilla woods because some modded woods can't make doors, buttons or pressure plates. That's bad because if you don't have access to a vanilla wood then you can't make these things.
+//this is in quark because quark is what breaks the compatibility >:(
+
+recipes.addShaped(<minecraft:wooden_door>*3,
+[
+[<ore:plankWood>,<ore:plankWood>],
+[<ore:plankWood>,<ore:plankWood>],
+[<ore:plankWood>,<ore:plankWood>]
+]);
+
+recipes.addShaped(<minecraft:wooden_pressure_plate>,
+[
+[<ore:plankWood>,<ore:plankWood>]
+]);
+
+recipes.addShapeless(<minecraft:wooden_button>,[<ore:plankWood>]);
