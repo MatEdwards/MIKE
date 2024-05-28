@@ -1,0 +1,26 @@
+[
+  {
+    "content": "contenttweaker:bill_wad",
+    "unitWorth": 100
+  },
+  {
+    "content": "contenttweaker:bill_wads",
+    "unitWorth": 1000
+  },
+  {
+    "content": "contenttweaker:bill_case",
+    "unitWorth": 10000
+  },
+  {
+    "content": "contenttweaker:bill_cases",
+    "unitWorth": 100000
+  },
+  {
+    "content": "contenttweaker:money_pile",
+    "unitWorth": 1000000
+  },
+  {
+    "content": "contenttweaker:money_pile_golden",
+    "unitWorth": 10000000
+  }
+]

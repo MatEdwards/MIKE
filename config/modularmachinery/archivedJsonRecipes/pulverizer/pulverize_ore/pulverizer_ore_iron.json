@@ -1,0 +1,37 @@
+{
+    "machine": "pulverizer",
+    "registryName": "pulverizer_ore_iron",
+    "recipeTime": 300,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:oreIron",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:crushedOreIron",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:crushedOreIron",
+            "amount": 1,
+			"chance": 0.33
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 100
+        }
+    ]
+}

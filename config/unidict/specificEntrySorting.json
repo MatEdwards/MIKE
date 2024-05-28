@@ -1,0 +1,66 @@
+[
+	{
+		"entryName" : "oreLead",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"immersiveengineering",
+			"bamboozled",
+			"immersivetech",
+			"forestry",
+			"enderio",
+			"advancedrocketry",
+			"libvulpes",
+			"contenttweaker"
+		]
+	},
+	{
+		"entryName" : "blockLead",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"immersiveengineering",
+			"bamboozled",
+			"immersivetech",
+			"forestry",
+			"enderio",
+			"advancedrocketry",
+			"libvulpes",
+			"contenttweaker"
+		]
+	},
+	{
+		"entryName" : "oreSilver",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"immersiveengineering",
+			"bamboozled",
+			"immersivetech",
+			"forestry",
+			"enderio",
+			"advancedrocketry",
+			"libvulpes",
+			"contenttweaker"
+		]
+	},
+	{
+		"entryName" : "blockSilver",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"immersiveengineering",
+			"bamboozled",
+			"immersivetech",
+			"forestry",
+			"enderio",
+			"advancedrocketry",
+			"libvulpes",
+			"contenttweaker"
+		]
+	}
+]

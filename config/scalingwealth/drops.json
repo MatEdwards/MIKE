@@ -1,0 +1,1316 @@
+{
+  "entities": {
+    "playerskins:playermob": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+    "babymobs:babypigzombie": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babyskeleton": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babywitch": {
+      "[10, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"artifacts:mimic": {
+      "[10, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"nex:wight": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"quark:dweller": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"quark:ashen": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:zombie_pigman": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:zombie": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:wither_skeleton": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:stray": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:skeleton": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:husk": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"foundry:gun_skeleton": {
+      "[10, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"enderiozoo:fallenknight": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"defiledlands:host": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babyzombie": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babywitherskeleton": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:zombie_villager": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"eerieentities:cursed_armor": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:illusion_illager": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"quark:pirate": {
+      "[10, 100]": [
+        {
+          "chance": 0.05,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.05,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.05,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.05,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.05,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"nex:brute": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:vindication_illager": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:witch": {
+      "[10, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.02,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"enderiozoo:witherwitch": {
+      "[10, 100]": [
+        {
+          "chance": 0.03,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.03,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.03,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.03,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.03,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"defiledlands:shambler_twisted": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"defiledlands:shambler": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babyenderman": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:enderman": {
+      "[10, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.01,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:wither": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:evocation_illager": {
+      "[10, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"babymobs:babywither": {
+      "[10, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.066,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:ender_dragon": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"harvestersnight:harvester": {
+      "[10, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"eerieentities:nether_knight": {
+      "[10, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.10,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"defiledlands:the_destroyer": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"defiledlands:the_mourner": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"nex:ghast_queen": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    },
+	"minecraft:elder_guardian": {
+      "[10, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:31"
+        }
+      ],
+      "[25, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:32"
+        }
+      ],
+      "[50, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:33"
+        }
+      ],
+      "[75, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:34"
+        }
+      ],
+      "[100, 100]": [
+        {
+          "chance": 0.20,
+          "item": "lootbags:itemlootbag:35"
+        }
+      ]
+    }
+  }
+}

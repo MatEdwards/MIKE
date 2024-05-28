@@ -1,0 +1,30 @@
+{
+    "machine": "washer",
+    "registryName": "washer_slurry_diamond",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "diamond_slurry",
+            "amount": 200
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dirtyDustDiamond",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "dist_water",
+            "amount": 200
+        }
+    ]
+}

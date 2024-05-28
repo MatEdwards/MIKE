@@ -1,0 +1,37 @@
+{
+    "machine": "fuser",
+    "registryName": "fuser_crushedore_aluminum",
+    "recipeTime": 300,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:crushedOreAluminum",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:clumpAluminum",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:clumpAluminum",
+            "amount": 1,
+			"chance": 0.33
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "pyrotheum",
+            "amount": 100
+        }
+    ]
+}

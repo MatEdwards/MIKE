@@ -1,0 +1,2 @@
+recipes.addShapeless(<duckcraft:duckcorncitem>, [<simplecorn:cornchowder>, <duckcraft:cookedduckitem>]);
+recipes.addShapeless(<duckcraft:duckcorncitem>, [<simplecorn:kernels>, <simplecorn:kernels>, <minecraft:milk_bucket>, <duckcraft:cookedduckitem>, <minecraft:bowl>]);

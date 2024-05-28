@@ -1,0 +1,133 @@
+{
+    "comment": "These qualities will apply for all horse armor. It may or may not
+                work with modded horse armor. If not, you can add the items manually.
+                For more info about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "horse",
+    "whitelist": [
+      {
+        "slot": "horse"
+      },
+	  {"item": "thermalfoundation:horse_armor_copper"},
+	  {"item": "thermalfoundation:horse_armor_tin"},
+	  {"item": "thermalfoundation:horse_armor_silver"},
+	  {"item": "thermalfoundation:horse_armor_lead"},
+	  {"item": "thermalfoundation:horse_armor_aluminum"},
+	  {"item": "thermalfoundation:horse_armor_nickel"},
+	  {"item": "thermalfoundation:horse_armor_platinum"},
+	  {"item": "thermalfoundation:horse_armor_steel"},
+	  {"item": "thermalfoundation:horse_armor_electrum"},
+	  {"item": "thermalfoundation:horse_armor_invar"},
+	  {"item": "thermalfoundation:horse_armor_bronze"},
+	  {"item": "thermalfoundation:horse_armor_constantan"},
+	  {"item": "wolfarmor:leather_wolf_armor"},
+	  {"item": "wolfarmor:chainmail_wolf_armor"},
+	  {"item": "wolfarmor:iron_wolf_armor"},
+	  {"item": "wolfarmor:gold_wolf_armor"},
+	  {"item": "wolfarmor:diamond_wolf_armor"}
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "normal",
+        "weight": 35
+      },
+      {
+        "name": "quality.protective.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+	  {
+        "name": "quality.defensive.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 4,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.arcane.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 3,
+            "operation": 0
+          }
+        ]
+      },
+	  {
+        "name": "quality.warding.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 6,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.speedy.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.swift.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.masterful.name",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.magicShielding",
+            "amount": 3,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

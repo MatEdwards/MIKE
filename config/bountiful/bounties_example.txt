@@ -1,0 +1,20 @@
+[
+  {
+    "content": "minecraft:dirt",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "entity:zombie",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 120,
+    "weight": 300
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "name": "diamond",
+    "cap": 60,
+    "weight": 1.0,
+    "durability": 4.0,
+    "enchantability": 1.1,
+    "playerDamage": true,
+    "ore1": "blockDiamond",
+    "ore2": "gemDiamond"
+  },
+  {
+    "name": "gold",
+    "cap": 80,
+    "weight": 2.5,
+    "durability": 0.5,
+    "enchantability": 2.8,
+    "playerDamage": false,
+    "ore1": "blockGold",
+    "ore2": "ingotGold"
+  },
+  {
+    "name": "stone",
+    "cap": 20,
+    "weight": 0.7,
+    "durability": 0.0,
+    "enchantability": 0.5,
+    "playerDamage": false,
+    "ore1": "stone",
+    "ore2": "slabStone"
+  },
+  {
+    "name": "aluminum",
+    "cap": 40,
+    "weight": 0.34,
+    "durability": 0.5,
+    "enchantability": 1.6,
+    "playerDamage": false,
+    "ore1": "blockAluminum",
+    "ore2": "ingotAluminum"
+  },
+  {
+    "name": "bronze",
+    "cap": 40,
+    "weight": 1.2,
+    "durability": 1.0,
+    "enchantability": 1.1,
+    "playerDamage": false,
+    "ore1": "blockBronze",
+    "ore2": "ingotBronze"
+  },
+  {
+    "name": "copper",
+    "cap": 40,
+    "weight": 1.3,
+    "durability": 0.5,
+    "enchantability": 0.9,
+    "playerDamage": false,
+    "ore1": "blockCopper",
+    "ore2": "ingotCopper"
+  },
+  {
+    "name": "electrum",
+    "cap": 70,
+    "weight": 2.0,
+    "durability": 1.0,
+    "enchantability": 3.3,
+    "playerDamage": false,
+    "ore1": "blockElectrum",
+    "ore2": "ingotElectrum"
+  },
+  {
+    "name": "endsteel",
+    "cap": 60,
+    "weight": 1.1,
+    "durability": 4.0,
+    "enchantability": 2.8,
+    "playerDamage": false,
+    "ore1": "blockEndSteel",
+    "ore2": "ingotEndSteel"
+  },
+  {
+    "name": "enderium",
+    "cap": 100,
+    "weight": 2.1,
+    "durability": 4.0,
+    "enchantability": 2.8,
+    "playerDamage": false,
+    "ore1": "blockEnderium",
+    "ore2": "ingotEnderium",
+    "traits": [
+      "teleporting"
+    ]
+  },
+  {
+    "name": "energetic_alloy",
+    "cap": 80,
+    "weight": 2.5,
+    "durability": 3.0,
+    "enchantability": 2.8,
+    "playerDamage": false,
+    "ore1": "blockEnergeticAlloy",
+    "ore2": "ingotEnergeticAlloy",
+    "traits": [
+      "redstone"
+    ]
+  },
+  {
+    "name": "invar",
+    "cap": 50,
+    "weight": 1.3,
+    "durability": 2.0,
+    "enchantability": 1.3,
+    "playerDamage": false,
+    "ore1": "blockInvar",
+    "ore2": "ingotInvar"
+  },
+  {
+    "name": "iridium",
+    "cap": 70,
+    "weight": 2.5,
+    "durability": 5.0,
+    "enchantability": 1.0,
+    "playerDamage": true,
+    "ore1": "blockIridium",
+    "ore2": "ingotIridium"
+  },
+  {
+    "name": "lead",
+    "cap": 20,
+    "weight": 1.5,
+    "durability": 0.75,
+    "enchantability": 1.0,
+    "playerDamage": false,
+    "ore1": "blockLead",
+    "ore2": "ingotLead"
+  },
+  {
+    "name": "nickel",
+    "cap": 50,
+    "weight": 1.0,
+    "durability": 1.0,
+    "enchantability": 2.0,
+    "playerDamage": false,
+    "ore1": "blockNickel",
+    "ore2": "ingotNickel"
+  },
+  {
+    "name": "platinum",
+    "cap": 80,
+    "weight": 2.5,
+    "durability": 4.0,
+    "enchantability": 1.8,
+    "playerDamage": true,
+    "ore1": "blockPlatinum",
+    "ore2": "ingotPlatinum"
+  },
+  {
+    "name": "signalum",
+    "cap": 70,
+    "weight": 2.1,
+    "durability": 2.0,
+    "enchantability": 2.0,
+    "playerDamage": false,
+    "ore1": "blockSignalum",
+    "ore2": "ingotSignalum",
+    "traits": [
+      "redstone"
+    ]
+  },
+  {
+    "name": "silver",
+    "cap": 60,
+    "weight": 1.5,
+    "durability": 0.75,
+    "enchantability": 2.8,
+    "playerDamage": false,
+    "ore1": "blockSilver",
+    "ore2": "ingotSilver"
+  },
+  {
+    "name": "steel",
+    "cap": 40,
+    "weight": 1.1,
+    "durability": 2.0,
+    "enchantability": 1.0,
+    "playerDamage": false,
+    "ore1": "blockSteel",
+    "ore2": "ingotSteel"
+  },
+  {
+    "name": "tin",
+    "cap": 20,
+    "weight": 1.0,
+    "durability": 1.0,
+    "enchantability": 1.0,
+    "playerDamage": false,
+    "ore1": "blockTin",
+    "ore2": "ingotTin"
+  },
+  {
+    "name": "vibrant_alloy",
+    "cap": 100,
+    "weight": 2.6,
+    "durability": 4.0,
+    "enchantability": 2.0,
+    "playerDamage": false,
+    "ore1": "blockVibrantAlloy",
+    "ore2": "ingotVibrantAlloy",
+    "traits": [
+      "teleporting"
+    ]
+  }
+]

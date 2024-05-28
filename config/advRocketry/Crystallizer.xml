@@ -1,0 +1,833 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustDilithium</oreDict>
+		</input>
+		<output>
+			<oreDict>gemDilithium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>ingotSilicon</oreDict>
+			<oreDict>nuggetSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productboule 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreAluminum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAluminum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustAluminum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAluminum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedAluminum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAluminum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreUranium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUranium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustUranium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUranium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedUranium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUranium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreCoal 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCoal 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustCoal 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCoal 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedCoal 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCoal 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreCopper 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCopper 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustCopper 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCopper 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedCopper 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCopper 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreDiamond 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalDiamond 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustDiamond 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalDiamond 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedDiamond 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalDiamond 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreDilithium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>gemDilithium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustDilithium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>gemDilithium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedDilithium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>gemDilithium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreEmerald 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEmerald 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustEmerald 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEmerald 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedEmerald 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEmerald 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreGalaxite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGalaxite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustGalaxite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGalaxite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedGalaxite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGalaxite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreGold 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGold 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustGold 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGold 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedGold 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalGold 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreHephaestite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalHephaestite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustHephaestite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalHephaestite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedHephaestite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalHephaestite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreIridium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIridium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustIridium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIridium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedIridium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIridium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreIron 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIron 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustIron 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIron 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedIron 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalIron 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreLapis 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLapis 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustLapis 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLapis 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedLapis 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLapis 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreLead 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLead 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustLead 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLead 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedLead 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalLead 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreNickel 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalNickel 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustNickel 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalNickel 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedNickel 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalNickel 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOrePlatinum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalPlatinum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustPlatinum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalPlatinum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedPlatinum 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalPlatinum 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreQuartz 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalQuartz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustQuartz 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalQuartz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedQuartz 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalQuartz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreRedstone 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRedstone 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustRedstone 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRedstone 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedRedstone 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRedstone 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreRutile 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRutile 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustRutile 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRutile 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedRutile 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRutile 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreScarlite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalScarlite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustScarlite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalScarlite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedScarlite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalScarlite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreSilver 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSilver 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustSilver 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSilver 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedSilver 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSilver 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreTin 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalTin 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustTin 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalTin 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedTin 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalTin 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreUmbrium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUmbrium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustUmbrium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUmbrium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedUmbrium 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalUmbrium 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreVulcanite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalVulcanite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustVulcanite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalVulcanite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedVulcanite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalVulcanite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreRime 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRime 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustRime 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRime 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedRime 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalRime 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreMithril 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalMithril 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustMithril 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalMithril 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedMithril 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalMithril 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreSalt 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSalt 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustSalt 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSalt 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedSalt 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalSalt 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreAmethyst 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAmethyst 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustAmethyst 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAmethyst 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedAmethyst 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalAmethyst 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreCincinnasite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCincinnasite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustCincinnasite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCincinnasite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedCincinnasite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalCincinnasite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedApatite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalApatite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreEnder 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnder 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustEnder 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnder 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedEnder 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnder 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>crushedOreEnderBiotite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnderBiotite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dirtyDustEnderBiotite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnderBiotite 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<oreDict>dustEnrichedEnderBiotite 2</oreDict>
+		</input>
+		<output>
+			<oreDict>crystalEnderBiotite 3</oreDict>
+		</output>
+	</Recipe>
+</Recipes>

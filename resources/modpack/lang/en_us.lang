@@ -1,0 +1,107 @@
+name.lootbags_lootbag_Sapling.name=Sapling Grab-Bag
+name.lootbags_lootbag_Friendship.name=Friendship Grab-Bag
+name.lootbags_lootbag_Cyberpunk.name=Cyberpunk Grab-Bag
+name.lootbags_lootbag_Gambling.name=Gambler's Bag
+
+name.lootbags_lootbag_Heroic.name=Heroic Loot Bag
+name.lootbags_lootbag_Superheroic.name=Super Heroic Loot Bag
+name.lootbags_lootbag_Ultraheroic.name=Ultra Heroic Loot Bag
+name.lootbags_lootbag_Megaheroic.name=Mega Heroic Loot Bag
+name.lootbags_lootbag_Gigaheroic.name=Giga Heroic Loot Bag
+
+charm.enchantment.homing=Dowsing
+
+enchantment.bibliocraft.bibliocraft.deathcompassench.desc=Applied to an Atlas, if you die while carrying it, you'll respawn with a compass leading to your death.
+enchantment.bibliocraft.bibliocraft.readingench.desc=Applied to a helmet, allows you to see attributes of Bibliocraft blocks in-world.
+
+enchantment.natural_absorption.absorption.desc=While worn, the enchanted armor will provide bonus absorption hearts.
+
+enchantment.cyclicmagic.enchantment.waterwalking.desc=Walk on water while wearing boots with this enchantment.
+
+enchantment.withsprinkles.exchange.desc=Will replace the block that you break with the block that is in your off hand.
+enchantment.withsprinkles.multiple.desc=Allows multiple sets of enchantments to be switched between.
+enchantment.withsprinkles.felling.desc=Simultaneously breaks all logs in a tree when you chop it.
+enchantment.withsprinkles.fracking.desc=Simultaneously breaks all nearby ores when you break one.
+
+enchantment.randomenchantments.reflect.desc=Reflects many projectiles! Hurray for physics!
+enchantment.randomenchantments.fast_place.desc=Block placing delay is reduced!
+enchantment.randomenchantments.solar.desc=Slowly repairs while outside.
+enchantment.randomenchantments.harvesting.desc=Arrows fired can break melons and pumpkins.
+enchantment.randomenchantments.back_to_the_chamber.desc=Has a chance of returning arrows that strike an enemy back to the inventory, 20% chance per level, works with tipped arrows, conflicts with infinity and multishot.
+enchantment.randomenchantments.exploding.desc=Arrows explode on contact with a mob, does not destroy blocks.
+enchantment.randomenchantments.homing.desc=Arrows fired by this bow will track any mob with the exception of Endermen and most passive mobs.
+enchantment.randomenchantments.phasing.desc=Arrows go through walls.
+enchantment.randomenchantments.piercing.desc=Arrow can pierce through several mobs.
+enchantment.randomenchantments.quickdraw.desc=Decreases the bow charge time.
+enchantment.randomenchantments.ricochet.desc=Arrows bounce off walls and floors.
+enchantment.randomenchantments.shattering.desc=Arrows break glass.
+enchantment.randomenchantments.true_shot.desc=Arrows fired by this bow will not be affected by gravity.
+enchantment.randomenchantments.transposition.desc=Swap places with the target on hit.
+enchantment.randomenchantments.teleportation.desc=Teleports to wherever the arrows land, won't teleport into lava or other unsafe places.
+enchantment.randomenchantments.cursed_jump.desc=Any mob struck with this enchantment will be unable to prevent themselves from skyrocketing into the air when they jump.
+enchantment.randomenchantments.disarm.desc=Any mob struck with this enchant will drop their weapon.
+enchantment.randomenchantments.floating.desc=Any mob struck with this enchant will be affected by the  Shulker Effect Floatng for 10 seconds.
+enchantment.randomenchantments.instant_death.desc=Any mob stuck with this enchant will die instantly.
+enchantment.randomenchantments.lightning.desc=Strikes any mob it hits with lightning.
+enchantment.randomenchantments.paralysis.desc=Any mob struck with this will find themselves unable to move, jump, or attack.
+enchantment.randomenchantments.true_lifesteal.desc=Damage dealt by a weapon enchanted with this restores some health; armor piercing.
+enchantment.randomenchantments.combo.desc=Increased damage with each successful strike, resets if it hits air or blocks.
+enchantment.randomenchantments.equal_mine.desc=Every block above hardness 1 is mined at the same speed.
+enchantment.randomenchantments.momentum.desc=Mining speed increases for each consecutive block of the same one.
+enchantment.randomenchantments.obsidian_buster.desc=Mining speed increases by 100 when used on obsidian.
+enchantment.randomenchantments.randomness.desc=Blocks drop additional completely random items when mined, one item per level.
+enchantment.randomenchantments.stonebound.desc=Tool gains more mining speed at lower durability, but reduced damage.
+enchantment.randomenchantments.stonelover.desc=Pickaxe has an 80% chance to restore 1 durability if mining stone (does not include cobblestone). 
+enchantment.randomenchantments.lumberjack.desc=When breaking a log, the tool will attempt to chop the whole tree.
+enchantment.randomenchantments.hooked.desc=Pulls the armor off of whatever mob it hits.
+enchantment.randomenchantments.grappling.desc=If used on a block, launches the player.
+enchantment.randomenchantments.deflect.desc=Arrows shot towards the wearer get vaporized, does not apply to player arrows.
+enchantment.randomenchantments.breaking.desc=Makes tool break faster.
+enchantment.randomenchantments.butterfingers.desc=Oops!
+enchantment.randomenchantments.fumbling.desc=This tool doesn't mine as quickly as it should...
+enchantment.randomenchantments.shadows.desc=This equipment seems to weaken in the light...
+
+tile.extra_gravel_ore.rutile.name=Rutile Gravel Ore
+
+fluid.blood=Ichor
+
+missile.icbmclassic:mutation.name=Missile Module
+tier.icbmclassic.none=None
+
+quality.fortunate.name=Fortunate
+quality.bulky.name=Bulky
+quality.fortified.name=Fortified
+quality.swift.name=Swift
+quality.bouncy.name=Bouncy
+quality.tunnelling.name=Tunnelling
+quality.brandishing.name=Brandishing
+quality.concentrating.name=Concentrating
+quality.warding.name=Warding
+quality.sniping.name=Sniping
+quality.berzerking.name=Berzerking
+
+quality.overlarge.name=Overlarge
+quality.brutal.name=Brutal
+quality.deft.name=Deft
+quality.flashing.name=Flashing
+quality.hardened.name=Hardened
+quality.destructive.name=Destructive
+quality.excavating.name=Excavating
+quality.tempered.name=Tempered
+quality.gigantic.name=Gigantic
+
+quality.ponderous.name=Ponderous
+quality.defensive.name=Defensive
+quality.enshrouding.name=Enshrouding
+quality.stabilizing.name=Stabilizing
+quality.glyphed.name=Glyphed
+
+quality.runecarved.name=Rune Carved
+quality.soulforged.name=Soul Forged
+
+quality.tougher.name=Tougher
+
+quality.favoredbyfate.name=Favored By Fate
+
+quality.piercing.name=Piercing
+quality.sundering.name=Sundering

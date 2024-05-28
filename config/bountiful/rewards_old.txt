@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "itemString": "contenttweaker:bill",
+      "amount": {
+        "min": 1,
+        "max": 100
+      },
+      "unitWorth": 1
+    },
+    {
+      "itemString": "contenttweaker:bill_wad",
+      "amount": {
+        "min": 1,
+        "max": 100
+      },
+      "unitWorth": 100
+    },
+    {
+      "itemString": "contenttweaker:bill_case",
+      "amount": {
+        "min": 1,
+        "max": 100
+      },
+      "unitWorth": 10000
+    },
+    {
+      "itemString": "contenttweaker:money_pile",
+      "amount": {
+        "min": 1,
+        "max": 100
+      },
+      "unitWorth": 1000000
+    }
+  ]
+}

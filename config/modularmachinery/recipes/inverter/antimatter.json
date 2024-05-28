@@ -1,0 +1,42 @@
+{
+    "machine": "inverter",
+    "registryName": "inverter_antimatter",
+    "recipeTime": 300,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:containment_antimatter",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:containment_empty",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:singularitySpacetime",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:crystalDilithium",
+            "amount": 8
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "hydrogen",
+            "amount": 16000
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+<Asteroids>
+	<asteroid name="Tiny Asteroid" distance="10" mass="40" massVariability="0.5" minLevel="0" probability="100" richness="0.5" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:lapis_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 7" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+		<ore itemStack="libvulpes:ore0" chance="10" />
+		<ore itemStack="libvulpes:ore0 8" chance="10" />
+		<ore itemStack="bamboozled:salt_ore" chance="10" />
+		<ore itemStack="forestry:resources 0" chance="10" />
+	</asteroid>
+	<asteroid name="Small Asteroid" distance="35" mass="80" massVariability="0.45" minLevel="0" probability="50" richness="0.55" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:lapis_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 7" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+		<ore itemStack="libvulpes:ore0" chance="10" />
+		<ore itemStack="libvulpes:ore0 8" chance="10" />
+		<ore itemStack="bamboozled:salt_ore" chance="10" />
+		<ore itemStack="forestry:resources 0" chance="10" />
+	</asteroid>
+	<asteroid name="Asteroid" distance="50" mass="120" massVariability="0.40" minLevel="0" probability="30" richness="0.6" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:lapis_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 7" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+		<ore itemStack="libvulpes:ore0" chance="10" />
+		<ore itemStack="libvulpes:ore0 8" chance="10" />
+		<ore itemStack="bamboozled:salt_ore" chance="10" />
+		<ore itemStack="forestry:resources 0" chance="10" />
+	</asteroid>
+	<asteroid name="Large Asteroid" distance="125" mass="160" massVariability="0.35" minLevel="0" probability="20" richness="0.65" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:lapis_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 7" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+		<ore itemStack="libvulpes:ore0" chance="10" />
+		<ore itemStack="libvulpes:ore0 8" chance="10" />
+		<ore itemStack="bamboozled:salt_ore" chance="10" />
+		<ore itemStack="forestry:resources 0" chance="10" />
+	</asteroid>
+	<asteroid name="Huge Asteroid" distance="200" mass="200" massVariability="0.30" minLevel="0" probability="10" richness="0.7" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:lapis_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 7" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+		<ore itemStack="libvulpes:ore0" chance="10" />
+		<ore itemStack="libvulpes:ore0 8" chance="10" />
+		<ore itemStack="bamboozled:salt_ore" chance="10" />
+		<ore itemStack="forestry:resources 0" chance="10" />
+	</asteroid>
+</Asteroids>

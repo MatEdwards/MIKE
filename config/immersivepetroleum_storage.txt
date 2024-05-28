@@ -1,0 +1,7 @@
+            2048, oil, 75 -> lubricant, 9, diesel, 27, gasoline, 39
+            2048, sap, 75 -> resin, 20, syrup, 10, tree_oil, 45
+            2048, biocrude, 75 -> plantoil, 20, refined_biofuel, 45, dist_water, 10
+			
+            immersivepetroleum:material, 1, 0, 7
+            thermalfoundation:material, 1, 832, 7
+            forestry:fertilizer_bio, 1, 0, 5

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Tank: Milk Bottle, Emptying" required="true">
+    <tanking type="EMPTY" logic="NONE">
+      <input name="birdsfoods:bottle_of_milk"/>
+      <fluid name="milk" amount="250"/>
+      <output name="minecraft:glass_bottle"/>
+    </tanking>
+  </recipe>
+  
+  <recipe disabled="true" name="Bread" required="true">
+    <smelting exp="0.35">
+      <input name="FLOUR"/>
+      <output name="minecraft:bread" amount="1"/>
+    </smelting>
+  </recipe>
+  
+  <recipe disabled="true" name="Gear, Wood" required="true">
+    <crafting>
+      <grid>
+        <item /><item name="stickWood"/><item />
+        <item name="stickWood"/><item /><item name="stickWood"/>
+        <item /><item name="stickWood"/><item />
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe disabled="true" name="Gear, ae2 messes things up" required="true">
+    <crafting>
+      <grid>
+        <item name="stickWood"/><item /><item name="stickWood"/>
+        <item /><item /><item />
+        <item name="stickWood"/><item /><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe disabled="true" name="Gear, just to be sure" required="true">
+    <crafting>
+      <grid size="3x2">
+        <item name="stickWood"/><item /><item name="stickWood"/>
+        <item name="stickWood"/><item /><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe disabled="true" name="Gear, better save than sorry" required="true">
+    <crafting>
+      <grid size="2x3">
+        <item name="stickWood"/><item name="stickWood"/>
+        <item /><item />
+        <item name="stickWood"/><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe disabled="true" name="Gear, Stone" required="true">
+    <crafting>
+      <grid>
+        <item name="stickWood"/><item name="oredict:cobblestone"/><item name="stickWood"/>
+        <item name="oredict:cobblestone"/><item /><item name="oredict:cobblestone"/>
+        <item name="stickWood"/><item name="oredict:cobblestone"/><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_STONE"/>
+    </crafting>
+  </recipe>
+
+  <recipe disabled="true" name="Gear, Stone, Upgrade" required="true">
+    <crafting>
+      <grid>
+        <item /><item name="oredict:cobblestone"/><item />
+        <item name="oredict:cobblestone"/><item name="GEAR_WOOD"/><item name="oredict:cobblestone"/>
+        <item /><item name="oredict:cobblestone"/><item />
+      </grid>
+      <output name="GEAR_STONE"/>
+    </crafting>
+  </recipe>
+  
+  <recipe name="Simple Chassis" disabled="true" required="true">
+    <crafting>
+      <grid>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+        <item name="IRON"/><item name="POWDER_INFINITY"/><item name="IRON"/>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+      </grid>
+      <output name="SIMPLE_CHASSIS"/>
+    </crafting>
+  </recipe>
+  
+  <recipe name="End Steel Chassis" disabled="true" required="true">
+    <crafting>
+      <grid>
+        <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
+        <item name="ingotEndSteel"/><item name="POWDER_INFINITY"/><item name="ingotEndSteel"/>
+        <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
+      </grid>
+      <output name="END_STEEL_CHASSIS"/>
+    </crafting>
+  </recipe>
+</enderio:recipes>

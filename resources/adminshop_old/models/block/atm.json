@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "adminshop:blocks/shopside",
+        "side": "adminshop:blocks/atm-texture",
+        "top": "adminshop:blocks/shopside"
+    }
+}

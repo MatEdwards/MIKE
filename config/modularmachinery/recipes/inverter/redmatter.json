@@ -1,0 +1,42 @@
+{
+    "machine": "inverter",
+    "registryName": "inverter_redmatter",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:containment_redmatter",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:containment_antimatter",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:singularityMetallic",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:crystalDilithium",
+            "amount": 16
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "mana",
+            "amount": 16000
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        }
+    ]
+}

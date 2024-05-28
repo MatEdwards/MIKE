@@ -1,0 +1,813 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="300" power ="256">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="256">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 4 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="256">
+		<input>
+			<itemStack>minecraft:dragon_egg 1</itemStack>
+		</input>
+		<output>
+			<oreDict>skullDragon</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1200" power ="256">
+		<input>
+			<oreDict>bouleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:wafer 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log2</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>minecraft:log2 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:planks 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>advancedrocketry:alienwood</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:planks 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>defiledlands:tenebra_log</itemStack>
+		</input>
+		<output>
+			<itemStack>defiledlands:tenebra_planks 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:nether_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:nether_log 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:log_0 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:log_0 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:log_0 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:log_0 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:planks 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:crystal_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:crystal_planks 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>plants2:crystal_log 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>plants2:crystal_planks 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>stygian:endlog</itemStack>
+		</input>
+		<output>
+			<itemStack>stygian:endplanks 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>rustic:log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>rustic:planks 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>rustic:log 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>rustic:planks 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>traverse:fir_log</itemStack>
+		</input>
+		<output>
+			<itemStack>traverse:fir_planks 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.0 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.0 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.0 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.0 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.1 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.1 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.1 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.1 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 7</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.2 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 8</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.2 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 9</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.2 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 10</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.2 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 11</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.3 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.3 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 13</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.3 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 14</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.3 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.0 6 15</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.4 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.4 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.4 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.4 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.5 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.5 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.5 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.5 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 7</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.6 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 8</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.6 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 9</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.6 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 10</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.6 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 11</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.7 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.1 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.0 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.0 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.0 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.0 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.1 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.1 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.1 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.1 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 7</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.2 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 8</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.2 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 9</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.2 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 10</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.2 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 11</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.3 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.3 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 13</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.3 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 14</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.3 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.0 6 15</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.4 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 0</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.4 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 1</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.4 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 2</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.4 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 3</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.5 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 4</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.5 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 5</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.5 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 6</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.5 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 7</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.6 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 8</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.6 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 9</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.6 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 10</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.6 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 11</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>forestry:logs.fireproof.7 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:planks.fireproof.1 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+<!--
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>ltn:glowing_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>ltn:glowing_planks 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>ltn:yellow_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>ltn:yellow_planks 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>ltn:green_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>ltn:green_planks 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>ltn:red_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>ltn:red_planks 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<itemStack>ltn:blue_log 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>ltn:blue_planks 6 12</itemStack>
+			<oreDict>dustWood 1</oreDict>
+		</output>
+	</Recipe>
+-->
+	<Recipe timeRequired="60" power ="256">
+		<input>
+			<oreDict>treeSapling 1</oreDict>
+		</input>
+		<output>
+			<oreDict>itemBiomass 1</oreDict>
+		</output>
+	</Recipe>
+</Recipes>

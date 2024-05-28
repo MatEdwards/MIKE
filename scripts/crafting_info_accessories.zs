@@ -1,0 +1,6 @@
+recipes.addShapeless(<infoaccessories:info_accessory:0>, [<minecraft:clock>, <minecraft:stone_button>, <ore:buttonWood>]);
+recipes.addShaped(<infoaccessories:info_accessory:1>, [[<ore:blockGlass>, <ore:ingotBronze>, <ore:blockGlass>], [null, <ore:ingotIron>, null], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+recipes.addShaped(<infoaccessories:info_accessory:2>, [[<ore:nuggetSilver>, <ore:dirt>, <ore:nuggetSilver>], [<minecraft:stone:1>, <inspirations:barometer>, <minecraft:stone:3>], [<ore:nuggetSilver>, <ore:obsidian>, <ore:nuggetSilver>]]);
+recipes.addShaped(<infoaccessories:info_accessory:4>, [[null, <ore:slimeball>, null], [<ore:slimeball>, <minecraft:compass>, <ore:slimeball>], [null, <ore:slimeball>, null]]);
+recipes.addShapeless(<infoaccessories:info_accessory:5>, [<minecraft:clock>, <minecraft:book>, <ore:dyeBlack>, <ore:feather>]);
+recipes.addShaped(<infoaccessories:info_accessory:6>, [[null, <ore:sand>, null], [<ore:dirt>, <minecraft:compass>, <ore:treeSapling>], [null, <minecraft:water_bucket>, null]]);

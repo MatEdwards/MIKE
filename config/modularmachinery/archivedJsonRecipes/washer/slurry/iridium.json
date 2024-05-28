@@ -1,0 +1,30 @@
+{
+    "machine": "washer",
+    "registryName": "washer_slurry_iridium",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "iridium_slurry",
+            "amount": 200
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dirtyDustIridium",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "dist_water",
+            "amount": 200
+        }
+    ]
+}

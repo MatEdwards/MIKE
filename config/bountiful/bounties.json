@@ -1,0 +1,1136 @@
+[
+  {
+    "content": "openmodularturrets:disposable_item_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 375,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:potato_cannon_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 540,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:machine_gun_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 850,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:incendiary_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1100,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:relativistic_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 320,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:grenade_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 630,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:teleporter_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 375,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:laser_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 785,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:rail_gun_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1140,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:rocket_turret",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1290,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:turret_base:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 380,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:turret_base:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 440,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:turret_base:2",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 435,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:turret_base:3",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 435,
+    "weight": 100
+  },
+  {
+    "content": "openmodularturrets:turret_base:4",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 500,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:11",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 982,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:10",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1150,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_confusion_charge",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 35,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_ender_charge",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 35,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_concussion_charge",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 45,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:tnt",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 35,
+    "weight": 100
+  },
+  {
+    "content": "modularutilities:splitter_tnt:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 155,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:wooden_device0:4",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 50,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 285,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 516,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:7",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 568,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:6",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1250,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:3",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 881,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:11",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 885,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:4",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1392,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:2",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1136,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:10",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1645,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:5",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 2631,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:9",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 3019,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:8",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 3415,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:18",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 4717,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:20",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 3222,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:19",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 6555,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:14",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 5148,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:21",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 7135,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:17",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 11533,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:13",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 13292,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:15",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 57433,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:22",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 246511,
+    "weight": 100
+  },
+  {
+    "content": "icbmclassic:explosives:23",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1019445,
+    "weight": 100
+  },
+  {
+    "content": "foundry:revolver:0",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 114,
+    "weight": 100
+  },
+  {
+    "content": "foundry:shotgun:0",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "pumpkinlauncher:pumpkinlauncher",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 180,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:revolver:0",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 389,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:chemthrower:0",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 531,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:railgun:0",
+    "amount": {
+      "min": 6,
+      "max": 12
+    },
+    "unitWorth": 968,
+    "weight": 100
+  },
+  {
+    "content": "forestry:engine_clockwork",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 175,
+    "weight": 100
+  },
+  {
+    "content": "forestry:engine_peat",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 185,
+    "weight": 100
+  },
+  {
+    "content": "forestry:farm_ender",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 268,
+    "weight": 100
+  },
+  {
+    "content": "forestry:farm_nether",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 265,
+    "weight": 100
+  },
+  {
+    "content": "forestry:engine_biogas",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 240,
+    "weight": 100
+  },
+  {
+    "content": "forestry:peat_bog",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 274,
+    "weight": 100
+  },
+  {
+    "content": "forestry:farm_mushroom",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 265,
+    "weight": 100
+  },
+  {
+    "content": "forestry:farm_gourd",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 283,
+    "weight": 100
+  },
+  {
+    "content": "forestry:farm_crops",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 295,
+    "weight": 100
+  },
+  {
+    "content": "forestry:arboretum",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 295,
+    "weight": 100
+  },
+  {
+    "content": "forestry:still",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 320,
+    "weight": 100
+  },
+  {
+    "content": "forestry:bottler",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 312,
+    "weight": 100
+  },
+  {
+    "content": "forestry:squeezer",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 340,
+    "weight": 100
+  },
+  {
+    "content": "forestry:centrifuge",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 340,
+    "weight": 100
+  },
+  {
+    "content": "forestry:fabricator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 360,
+    "weight": 100
+  },
+  {
+    "content": "forestry:carpenter",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 370,
+    "weight": 100
+  },
+  {
+    "content": "forestry:moistener",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 510,
+    "weight": 100
+  },
+  {
+    "content": "forestry:fermenter",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 620,
+    "weight": 100
+  },
+  {
+    "content": "forestry:rainmaker",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 615,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:2",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 190,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:3",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 385,
+    "weight": 100
+  },
+  {
+    "content": "immersivepetroleum:metal_device:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 555,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device0:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 75,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device0:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 145,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device0:2",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 245,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 225,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 424,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:4",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 40,
+    "weight": 100
+  },
+  {
+    "content": "immersivepetroleum:metal_device:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:5",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 245,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:9",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 303,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:7",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 543,
+    "weight": 100
+  },
+  {
+    "content": "immersiveengineering:metal_device1:8",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 810,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_wireless_charger",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 368,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_simple_wired_charger",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 359,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_simple_furnace",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 353,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_soul_binder",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 431,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_ender_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 465,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_wired_charger",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 566,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_zombie_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 443,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_killer_joe",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 470,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_attractor_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 496,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_franken_zombie_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 440,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_simple_stirling_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 402,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_experience_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 557,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_inhibitor_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 610,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_powered_spawner",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 651,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_stirling_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 629,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_slice_and_splice",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 608,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_vat",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 688,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_aversion_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 699,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_solar_panel:0",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 854,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_solar_panel:1",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 916,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_combustion_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1270,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_enhanced_wired_charger",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 879,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_lava_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 927,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_enhanced_vat",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1157,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_relocator_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 903,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_solar_panel:2",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1167,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_enhanced_combustion_generator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1270,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_weather_obelisk",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1148,
+    "weight": 100
+  },
+  {
+    "content": "enderio:block_solar_panel:3",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1664,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:electrolyser",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 358,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:chemicalreactor",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 408,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:warpmonitor",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 425,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:warpcore",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 415,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:lathe",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 452,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:crystallizer",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 378,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:precisionassemblingmachine",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 433,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:microwavereciever",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 425,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:spacelaser",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 516,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:rollingmachine",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 708,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:cuttingmachine",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 508,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:satellitebuilder",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1242,
+    "weight": 100
+  },
+  {
+    "content": "advancedrocketry:blackholegenerator",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 1517,
+    "weight": 100
+  }
+]

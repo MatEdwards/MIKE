@@ -1,0 +1,37 @@
+[
+  {
+    "tier": 1,
+    "color": 2273612,
+    "affixes": 1,
+    "growthFactor": 4,
+    "chance": 0.02
+  },
+  {
+    "tier": 2,
+    "color": 16773632,
+    "affixes": 2,
+    "growthFactor": 8,
+    "chance": 0.5
+  },
+  {
+    "tier": 3,
+    "color": 16744231,
+    "affixes": 3,
+    "growthFactor": 12,
+    "chance": 0.5
+  },
+  {
+    "tier": 4,
+    "color": 15539236,
+    "affixes": 4,
+    "growthFactor": 16,
+    "chance": 0.5
+  },
+  {
+    "tier": 5,
+    "color": 10701219,
+    "affixes": 5,
+    "growthFactor": 20,
+    "chance": 0.5
+  }
+]

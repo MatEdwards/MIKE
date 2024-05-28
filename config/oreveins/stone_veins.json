@@ -1,0 +1,319 @@
+{
+  "basalt_sphere_nex": {
+    "type": "sphere",
+    "ore": [
+		{"block": "quark:basalt"}
+	],
+    "stone": [
+	  {"block": "minecraft:netherrack"}
+	],
+    "rarity": 30,
+    "min_y": 0,
+    "max_y": 128,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [0, 1],
+	"dimensions_is_whitelist": false
+  },
+  
+  "granite_sphere": {
+    "type": "sphere",
+    "ore": { "block": "minecraft:stone", "meta": 1 },
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "diorite_sphere": {
+    "type": "sphere",
+    "ore": { "block": "minecraft:stone", "meta": 3 },
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "andesite_sphere": {
+    "type": "sphere",
+    "ore": { "block": "minecraft:stone", "meta": 5 },
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "jasper_sphere": {
+    "type": "sphere",
+    "ore": {"block": "quark:jasper"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "slate_quark_sphere": {
+    "type": "sphere",
+    "ore": {"block": "quark:slate"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "marble_sphere": {
+    "type": "sphere",
+    "ore": {"block": "quark:marble"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "limestone_sphere": {
+    "type": "sphere",
+    "ore": {"block": "quark:limestone"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "slate_green_sphere": {
+    "type": "sphere",
+    "ore": {"block": "earthworks:block_slate_green"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "slate_purple_sphere": {
+    "type": "sphere",
+    "ore": {"block": "earthworks:block_slate_purple"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "slate_sphere": {
+    "type": "sphere",
+    "ore": {"block": "earthworks:block_slate"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "chalk_sphere": {
+    "type": "sphere",
+    "ore": {"block": "earthworks:block_chalk"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  },
+
+  "slate_black_sphere": {
+    "type": "sphere",
+    "ore": {"block": "rustic:slate"},
+    "stone": [
+	  {"block": "earthworks:block_slate_green"},
+	  {"block": "earthworks:block_slate_purple"},
+	  {"block": "earthworks:block_slate"},
+	  {"block": "earthworks:block_chalk"},
+	  {"block": "minecraft:stone"},
+	  {"block": "quark:marble"},
+	  {"block": "quark:limestone"},
+	  {"block": "rustic:slate"},
+	  {"block": "quark:slate"},
+	  {"block": "quark:jasper"}
+	],
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 192,
+    "density": 1000,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+	"dimensions": [-1, 1],
+	"dimensions_is_whitelist": false
+  }
+}

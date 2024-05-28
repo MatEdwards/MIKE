@@ -1,0 +1,183 @@
+{
+    "comment": "These qualities will apply for all shields! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": [
+        "offhand"
+    ],
+    "whitelist": [
+      {"class": "ItemShield"},
+	  {"item": "thermalfoundation:tool.shield_copper"},
+	  {"item": "thermalfoundation:tool.shield_tin"},
+	  {"item": "thermalfoundation:tool.shield_silver"},
+	  {"item": "thermalfoundation:tool.shield_lead"},
+	  {"item": "thermalfoundation:tool.shield_aluminum"},
+	  {"item": "thermalfoundation:tool.shield_nickel"},
+	  {"item": "thermalfoundation:tool.shield_platinum"},
+	  {"item": "thermalfoundation:tool.shield_steel"},
+	  {"item": "thermalfoundation:tool.shield_electrum"},
+	  {"item": "thermalfoundation:tool.shield_invar"},
+	  {"item": "thermalfoundation:tool.shield_bronze"},
+	  {"item": "thermalfoundation:tool.shield_constantan"},
+	  {"item": "thermalfoundation:tool.shield_iron"},
+	  {"item": "thermalfoundation:tool.shield_diamond"},
+	  {"item": "thermalfoundation:tool.shield_gold"},
+	  {"item": "eerieentities:nether_shield"},
+	  {"item": "immersiveengineering:shield"}
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "normal",
+        "weight": 50
+      },
+      {
+        "name": "quality.arcane.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+	  {
+        "name": "quality.warding.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.solid.name",
+        "color": "blue",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+	  {
+        "name": "quality.ponderous.name",
+        "color": "aqua",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.75,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.protective.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.defensive.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 1.0,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.glyphed.name",
+        "color": "green",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+		  {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.enshrouding.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          },
+		  {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.stabilizing.name",
+        "color": "green",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          },
+		  {
+            "name": "generic.knockbackResistance",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.legendary.name",
+        "color": "light_purple",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          },
+		  {
+            "name": "generic.knockbackResistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+		  {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

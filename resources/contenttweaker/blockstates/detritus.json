@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "contenttweaker:blocks/detritus_top",
+      "side": "contenttweaker:blocks/detritus_side",
+      "bottom": "contenttweaker:blocks/detritus_bottom"
+    },
+    "model": "cube_bottom_top",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

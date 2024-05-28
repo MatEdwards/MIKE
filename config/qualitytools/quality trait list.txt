@@ -1,0 +1,23 @@
+// Offense
+generic.attackDamage
+potioncore.projectileDamage
+potioncore.magicDamage
+generic.attackSpeed
+
+// Protection
+generic.maxHealth
+generic.armor
+generic.armorToughness
+potioncore.magicShielding
+potioncore.damageResistance
+generic.knockbackResistance
+
+// Mobility
+generic.movementSpeed
+potioncore.stepHeight
+potioncore.jumpHeight
+
+// Utility
+potioncore.digSpeed
+generic.luck
+generic.reachDistance

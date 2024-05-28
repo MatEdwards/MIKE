@@ -1,0 +1,224 @@
+{
+	"populate": {
+		
+		"rutile": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"properties": {
+						"varient": "8"
+					}
+				},
+				"material": [
+					"earthworks:block_slate_green",
+					"earthworks:block_slate",
+					"earthworks:block_slate_purple",
+					"earthworks:block_chalk",
+					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
+					"rustic:slate"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "lead"
+						},
+						"weight": 50
+					},
+					{
+						"name": "immersiveengineering:ore",
+						"properties": {
+							"type": "uranium"
+						},
+						"weight": 50
+					}
+				],
+				"material": [
+					"earthworks:block_slate_green",
+					"earthworks:block_slate",
+					"earthworks:block_slate_purple",
+					"earthworks:block_chalk",
+					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
+					"rustic:slate"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"dilithium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"properties": {
+						"varient": "0"
+					}
+				},
+				"material": [
+					"earthworks:block_slate_green",
+					"earthworks:block_slate",
+					"earthworks:block_slate_purple",
+					"earthworks:block_chalk",
+					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
+					"rustic:slate"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"iridium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "iridium"
+						}
+					}
+				],
+				"material": [
+					"earthworks:block_slate_green",
+					"earthworks:block_slate",
+					"earthworks:block_slate_purple",
+					"earthworks:block_chalk",
+					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
+					"rustic:slate"
+				],
+				"cluster-size": 16
+			},
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"cincinnasite": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "betternether:cincinnasite_ore"
+				},
+				"material": [
+						"quark:basalt",
+						"betternether:netherrack_moss",
+						"betternether:nether_mycelium"
+					],
+				"cluster-size": 8
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+					"type": "dictionary",
+					"entry": "NETHER"
+					}
+				]
+			},
+		"dimension": "all"
+		},
+		"ender_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "enderore:ore_ender",
+					}
+				],
+				"material": [
+					"earthworks:block_slate_green",
+					"earthworks:block_slate",
+					"earthworks:block_slate_purple",
+					"earthworks:block_chalk",
+					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
+					"rustic:slate"
+				],
+				"cluster-size": 3
+			},
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 24,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

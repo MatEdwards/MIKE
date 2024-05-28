@@ -1,0 +1,1217 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="900" power ="256">
+		<input>
+			<oreDict>ingotGold</oreDict>
+			<oreDict>dustRedstone</oreDict>
+			<oreDict>waferSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="256">
+		<input>
+			<oreDict>ingotGold</oreDict>
+			<itemStack>minecraft:redstone_block</itemStack>
+			<oreDict>waferSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="256">
+		<input>
+			<oreDict>gemEmerald</oreDict>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="256">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<oreDict>plateSilicon</oreDict>
+			<oreDict>plateGold</oreDict>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<oreDict>plateSilicon</oreDict>
+			<oreDict>plateCopper</oreDict>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<oreDict>plateSilicon</oreDict>
+			<itemStack>minecraft:dye 1 4</itemStack>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<oreDict>dustRedstone</oreDict>
+			<itemStack>minecraft:redstone_torch</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<itemStack>minecraft:fire_charge</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<itemStack>libvulpes:motor</itemStack>
+			<oreDict>rodTitanium</oreDict>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<itemStack>minecraft:leather_boots</itemStack>
+			<itemStack>minecraft:feather</itemStack>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<itemStack>advancedrocketry:ic 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="256">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<oreDict>plateTin</oreDict>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:atmanalyser</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="256">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<oreDict>plateTin</oreDict>
+			<itemStack>advancedrocketry:ic 1 1</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:biomechanger</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="256">
+		<input>
+			<oreDict>stickCopper 2</oreDict>
+			<oreDict>stickTitanium</oreDict>
+			<oreDict>waferSilicon 2</oreDict>
+			<itemStack>advancedrocketry:ic 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>minecraft:glass 3</itemStack>
+			<oreDict>itemLens 3</oreDict>
+			<oreDict>stickIron</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>advancedrocketry:ic 1 1</itemStack>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:elevatorchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>advancedrocketry:ic 1 1</itemStack>
+			<itemStack>advancedrocketry:itemupgrade 1 4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:beaconfinder</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet</itemStack>
+			<oreDict>plateAluminum</oreDict>
+			<oreDict>plateSteel 5</oreDict>
+			<oreDict>gearTitanium</oreDict>
+			<oreDict>stickTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:handgun</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 2</itemStack>
+			<oreDict>plateIron 2</oreDict>
+			<oreDict>plateSteel 10</oreDict>
+			<oreDict>gearSteel</oreDict>
+			<oreDict>stickSteel 2</oreDict>
+			<oreDict>gearTitanium</oreDict>
+			<oreDict>stickTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:shotgun</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 2</itemStack>
+			<oreDict>plateConductiveIron 2</oreDict>
+			<oreDict>plateSteel 5</oreDict>
+			<oreDict>gearSteel</oreDict>
+			<oreDict>stickSteel 2</oreDict>
+			<oreDict>plateTitanium 5</oreDict>
+			<oreDict>gearTitanium</oreDict>
+			<oreDict>stickTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:rifle</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 3</itemStack>
+			<oreDict>plateElectricalSteel 3</oreDict>
+			<oreDict>plateSteel 3</oreDict>
+			<oreDict>stickSteel</oreDict>
+			<oreDict>plateTitaniumAluminide 3</oreDict>
+			<oreDict>gearTitaniumAluminide</oreDict>
+			<oreDict>stickTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:machine_pistol</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 3</itemStack>
+			<oreDict>plateDarkSteel 3</oreDict>
+			<oreDict>plateSteel 5</oreDict>
+			<oreDict>gearSteel</oreDict>
+			<oreDict>stickSteel 2</oreDict>
+			<oreDict>plateTitaniumAluminide 5</oreDict>
+			<oreDict>gearTitaniumAluminide</oreDict>
+			<oreDict>stickTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:assault_rifle</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 4</itemStack>
+			<oreDict>plateInvar 4</oreDict>
+			<oreDict>plateSteel 5</oreDict>
+			<oreDict>gearSteel 2</oreDict>
+			<oreDict>stickSteel 3</oreDict>
+			<oreDict>plateTitaniumAluminide 10</oreDict>
+			<oreDict>gearTitaniumAluminide 2</oreDict>
+			<oreDict>stickTitaniumAluminide 3</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:chain_gun</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 5</itemStack>
+			<oreDict>plateEndSteel 5</oreDict>
+			<oreDict>plateSteel 5</oreDict>
+			<oreDict>gearSteel 3</oreDict>
+			<oreDict>stickSteel 3</oreDict>
+			<oreDict>plateTitaniumIridium 15</oreDict>
+			<oreDict>gearTitaniumIridium 3</oreDict>
+			<oreDict>stickTitaniumIridium 3</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:grenade_launcher</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 5</itemStack>
+			<oreDict>platePulsatingIron 5</oreDict>
+			<oreDict>plateSteel 10</oreDict>
+			<oreDict>gearSteel 5</oreDict>
+			<oreDict>stickSteel 5</oreDict>
+			<oreDict>plateTitaniumIridium 20</oreDict>
+			<oreDict>gearTitaniumIridium 5</oreDict>
+			<oreDict>stickTitaniumIridium 5</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:bazooka</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>sheetAluminum</oreDict>
+			<oreDict>dyeRed</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:scope 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>itemLens 2</oreDict>
+			<oreDict>sheetIron</oreDict>
+			<oreDict>dyeRed</oreDict>
+			<itemStack>contenttweaker:rubber_sheet</itemStack>
+		</input>
+		<output>
+			<itemStack>cgm:scope 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>itemLens 2</oreDict>
+			<oreDict>sheetSteel</oreDict>
+			<oreDict>dyeRed</oreDict>
+			<oreDict>dyeBlack</oreDict>
+			<itemStack>contenttweaker:rubber_sheet 2</itemStack>
+		</input>
+		<output>
+			<itemStack>cgm:scope 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>ingotLead</oreDict>
+			<oreDict>gunpowder</oreDict>
+			<oreDict>sheetCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:basic_ammo 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+			<oreDict>gunpowder</oreDict>
+			<oreDict>sheetCopper</oreDict>
+			<itemStack>contenttweaker:rubber_sheet</itemStack>
+		</input>
+		<output>
+			<itemStack>cgm:shell 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>ingotDarkSteel</oreDict>
+			<oreDict>gunpowder</oreDict>
+			<oreDict>sheetCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:advanced_ammo 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<itemStack>minecraft:tnt</itemStack>
+			<oreDict>nuggetSteel 4</oreDict>
+			<oreDict>sheetSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:grenade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<itemStack>enderio:block_confusion_charge</itemStack>
+			<oreDict>dustLumium</oreDict>
+			<oreDict>sheetAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:stun_grenade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<itemStack>minecraft:tnt</itemStack>
+			<itemStack>advancedrocketry:bucketrocketfuel</itemStack>
+			<oreDict>stickTitaniumAluminide</oreDict>
+			<oreDict>sheetTitaniumAluminide 3</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:missile</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<oreDict>stickTitanium</oreDict>
+			<oreDict>sheetTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>cgm:silencer</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power ="256">
+		<input>
+			<itemStack>contenttweaker:rubber_sheet 3</itemStack>
+			<oreDict>plateIridium 5</oreDict>
+			<oreDict>stickIridium 2</oreDict>
+			<itemStack>thermalfoundation:glass 3 7</itemStack>
+			<oreDict>circuitElite 2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:basiclasergun</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>minecraft:tnt 2 0</itemStack>
+			<fluidStack>redstone 200</fluidStack>
+			<oreDict>sheetCopper 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 0</itemStack>
+			<oreDict>ballDarkSteel 8</oreDict>
+			<oreDict>sheetCopper 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 1</itemStack>
+			<oreDict>dustSulfur 4</oreDict>
+			<fluidStack>napalm 1000</fluidStack>
+			<itemStack>advancedrocketry:pressuretank 1 0</itemStack>
+			<oreDict>sheetIron 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 1</itemStack>
+			<oreDict>dustSulfur 4</oreDict>
+			<itemStack>enderio:block_confusion_charge 2 0</itemStack>
+			<itemStack>minecraft:fermented_spider_eye 4 0</itemStack>
+			<oreDict>sheetIron 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 1</itemStack>
+			<itemStack>enderio:block_dark_steel_anvil 2 0</itemStack>
+			<oreDict>sheetIron 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 0</itemStack>
+			<itemStack>advancedrocketry:pressuretank 1 0</itemStack>
+			<itemStack>advancedrocketry:pressuretank 1 0</itemStack>
+			<fluidStack>oxygen 2000</fluidStack>
+			<oreDict>sheetAluminum 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 0</itemStack>
+			<itemStack>thermalinnovation:magnet 1 0</itemStack>
+			<itemStack>enderio:item_basic_capacitor 1 0</itemStack>
+			<oreDict>sheetAluminum 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 3</itemStack>
+			<itemStack>icbmclassic:poisonpowder 8 0</itemStack>
+			<itemStack>minecraft:glass_bottle 4 0</itemStack>
+			<oreDict>sheetAluminum 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 1</itemStack>
+			<itemStack>icbmclassic:explosives 1 2</itemStack>
+			<oreDict>sheetSteel 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 2 4</itemStack>
+			<itemStack>defiledlands:foul_slime 4 0</itemStack>
+			<oreDict>sheetSteel 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 6</itemStack>
+			<itemStack>minecraft:noteblock 4 0</itemStack>
+			<oreDict>plateSilver 4</oreDict>
+			<oreDict>sheetSteel 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 2 0</itemStack>
+			<itemStack>minecraft:hopper 1 0</itemStack>
+			<oreDict>gunpowder 6</oreDict>
+			<oreDict>sheetTitanium 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 11</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 1 6</itemStack>
+			<itemStack>icbmclassic:explosives 4 4</itemStack>
+			<itemStack>icbmclassic:explosives 4 2</itemStack>
+			<fluidStack>rocketfuel 8000</fluidStack>
+			<oreDict>sheetTitanium 4</oreDict>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<oreDict>blockUranium 1</oreDict>
+			<oreDict>ingotHOPGraphite 5</oreDict>
+			<oreDict>sheetAluminum 2</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:neutron_reflector 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 13</itemStack>
+			<oreDict>ingotUraniumEnriched 5</oreDict>
+			<itemStack>contenttweaker:neutron_reflector 2 0</itemStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 15</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 8 2</itemStack>
+			<fluidStack>pyrotheum 16000</fluidStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 17</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 7</itemStack>
+			<fluidStack>cryotheum 16000</fluidStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 18</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 10</itemStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+			<itemStack>minecraft:jukebox 4 0</itemStack>
+			<oreDict>plateElectrum 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 21</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 7</itemStack>
+			<itemStack>enderio:item_material 1 44</itemStack>
+			<itemStack>enderio:block_ender_charge 2 0</itemStack>
+			<fluidStack>ender 4000</fluidStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+			<itemStack>advancedrocketry:pressuretank 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 20</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 6</itemStack>
+			<itemStack>enderio:item_material 2 19</itemStack>
+			<fluidStack>aerotheum 16000</fluidStack>
+			<oreDict>sheetTitaniumAluminide 4</oreDict>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 19</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<itemStack>enderio:item_material 1 54</itemStack>
+			<itemStack>thermalinnovation:magnet 1 4</itemStack>
+			<itemStack>thermalinnovation:magnet 1 4</itemStack>
+			<itemStack>libvulpes:elitemotor 2 0</itemStack>
+			<itemStack>thermalfoundation:glass_alloy 4 7</itemStack>
+			<oreDict>sheetTitaniumIridium 4</oreDict>
+			<oreDict>itemInfinityRod 4</oreDict>
+			<fluidStack>vapor_of_levity 2000</fluidStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:containment_empty 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 15</itemStack>
+			<itemStack>contenttweaker:containment_antimatter 1 0</itemStack>
+			<oreDict>sheetTitaniumIridium 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 22</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="250" power ="256">
+		<input>
+			<itemStack>icbmclassic:explosives 4 22</itemStack>
+			<itemStack>contenttweaker:containment_redmatter 1 0</itemStack>
+			<oreDict>sheetTitaniumIridium 4</oreDict>
+		</input>
+		<output>
+			<itemStack>icbmclassic:explosives 1 23</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="128" power ="256">
+		<input>
+			<itemStack>enderio:block_dark_iron_bars</itemStack>
+			<itemStack>minecraft:clay_ball</itemStack>
+			<oreDict>string 4</oreDict>
+		</input>
+		<output>
+			<itemStack>enderio:item_dark_steel_upgrade</itemStack>
+		</output>
+	</Recipe>
+	
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustSteel</oreDict>
+		</input>
+		<output>
+			<oreDict>lensSteel</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustUmbrium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensUmbrium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustUraniumEnriched</oreDict>
+		</input>
+		<output>
+			<oreDict>lensUraniumEnriched</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustInvar</oreDict>
+		</input>
+		<output>
+			<oreDict>lensInvar</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustSilver</oreDict>
+		</input>
+		<output>
+			<oreDict>lensSilver</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustRutile</oreDict>
+		</input>
+		<output>
+			<oreDict>lensRutile</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustBronze</oreDict>
+		</input>
+		<output>
+			<oreDict>lensBronze</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustCoal</oreDict>
+		</input>
+		<output>
+			<oreDict>lensCoal</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustConstantan</oreDict>
+		</input>
+		<output>
+			<oreDict>lensConstantan</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustScarlite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensScarlite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustGlowstone</oreDict>
+		</input>
+		<output>
+			<oreDict>lensGlowstone</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustGalaxite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensGalaxite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustTitanium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensTitanium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustCopper</oreDict>
+		</input>
+		<output>
+			<oreDict>lensCopper</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustThermite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensThermite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustEnergeticAlloy</oreDict>
+		</input>
+		<output>
+			<oreDict>lensEnergeticAlloy</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustLumium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensLumium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustHOPGraphite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensHOPGraphite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustMithril</oreDict>
+		</input>
+		<output>
+			<oreDict>lensMithril</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustModularium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensModularium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustLead</oreDict>
+		</input>
+		<output>
+			<oreDict>lensLead</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustGold</oreDict>
+		</input>
+		<output>
+			<oreDict>lensGold</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustUranium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensUranium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustDilithium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensDilithium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>itemInfinityGoop</oreDict>
+		</input>
+		<output>
+			<oreDict>lensInfinityGoop</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustAluminum</oreDict>
+		</input>
+		<output>
+			<oreDict>lensAluminum</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustTin</oreDict>
+		</input>
+		<output>
+			<oreDict>lensTin</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustObsidian</oreDict>
+		</input>
+		<output>
+			<oreDict>lensObsidian</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustElectricalSteel</oreDict>
+		</input>
+		<output>
+			<oreDict>lensElectricalSteel</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustConductiveIron</oreDict>
+		</input>
+		<output>
+			<oreDict>lensConductiveIron</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustEndSteel</oreDict>
+		</input>
+		<output>
+			<oreDict>lensEndSteel</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustIridium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensIridium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensTitaniumIridium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustLapis</oreDict>
+		</input>
+		<output>
+			<oreDict>lensLapis</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustVibrantAlloy</oreDict>
+		</input>
+		<output>
+			<oreDict>lensVibrantAlloy</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustSignalum</oreDict>
+		</input>
+		<output>
+			<oreDict>lensSignalum</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustPlatinum</oreDict>
+		</input>
+		<output>
+			<oreDict>lensPlatinum</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<oreDict>lensTitaniumAluminide</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustNetherQuartz</oreDict>
+		</input>
+		<output>
+			<oreDict>lensQuartz</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustVulcanite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensVulcanite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustRedstoneAlloy</oreDict>
+		</input>
+		<output>
+			<oreDict>lensRedstoneAlloy</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustRedstone</oreDict>
+		</input>
+		<output>
+			<oreDict>lensRedstone</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustSalt</oreDict>
+		</input>
+		<output>
+			<oreDict>lensSalt</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustDiamond</oreDict>
+		</input>
+		<output>
+			<oreDict>lensDiamond</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustCoke</oreDict>
+		</input>
+		<output>
+			<oreDict>lensCoke</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustDarkSteel</oreDict>
+		</input>
+		<output>
+			<oreDict>lensDarkSteel</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustBedrock</oreDict>
+		</input>
+		<output>
+			<oreDict>lensBedrock</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustHephaestite</oreDict>
+		</input>
+		<output>
+			<oreDict>lensHephaestite</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustElectrum</oreDict>
+		</input>
+		<output>
+			<oreDict>lensElectrum</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustVividAlloy</oreDict>
+		</input>
+		<output>
+			<oreDict>lensVividAlloy</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustNickel</oreDict>
+		</input>
+		<output>
+			<oreDict>lensNickel</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustEmerald</oreDict>
+		</input>
+		<output>
+			<oreDict>lensEmerald</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustIron</oreDict>
+		</input>
+		<output>
+			<oreDict>lensIron</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustSoularium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensSoularium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustEnderium</oreDict>
+		</input>
+		<output>
+			<oreDict>lensEnderium</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemLens</oreDict>
+			<oreDict>dustPulsatingIron</oreDict>
+		</input>
+		<output>
+			<oreDict>lensPulsatingIron</oreDict>
+		</output>
+	</Recipe>
+</Recipes>

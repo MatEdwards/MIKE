@@ -1,0 +1,78 @@
+{
+	"name" : "demo:loot4",
+	"loot_rules" : [
+		{
+			"level" : 4,
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "armour", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "minecraft:coal_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "bamboozled:salt_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "forestry:resources", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 1, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 4, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "minecraft:iron_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 3, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "minecraft:redstone_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "minecraft:gold_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 2, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 5, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "libvulpes:ore0", "meta" : 8, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "immersiveengineering:ore", "meta" : 5, "min" : 30, "max" : 60}, "weight" : 1},
+				{"data" : {"name" : "minecraft:lapis_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 3},
+				{"data" : {"name" : "minecraft:diamond_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 3},
+				{"data" : {"name" : "minecraft:emerald_ore", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 3},
+				{"data" : {"name" : "enderore:ore_ender", "meta" : 0, "min" : 30, "max" : 60}, "weight" : 3},
+				{"data" : {"name" : "thermalfoundation:ore", "meta" : 6, "min" : 30, "max" : 60}, "weight" : 3},
+				{"data" : {"name" : "thermalfoundation:ore_fluid", "meta" : 1, "min" : 30, "max" : 60}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 8
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "enchanted_book", "ench" : 30}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 6
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "specialty", "level" : 4}, "weight" : 3},
+				{"data" : {"name" : "lootbags:itemlootbag", "meta" : 4}, "weight" : 1},
+				{"data" : {"name" : "lootbags:itemlootbag", "meta" : 11}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 12
+		}
+	]
+}

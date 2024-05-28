@@ -1,0 +1,445 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="40" power ="256">
+		<input>
+			<itemStack>advancedrocketry:carbonscrubbercartridge 1 32767</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:carbonscrubbercartridge</itemStack>
+			<itemStack>minecraft:coal 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>minecraft:bone</itemStack>
+			<fluidStack>nitrogen 10</fluidStack>
+		</input>
+		<output>
+			<itemStack>forestry:fertilizer_compound 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>oxygen 1000</fluidStack>
+			<fluidStack>hydrogen 1000</fluidStack>
+		</input>
+		<output>
+			<fluidStack>rocketfuel 2000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="256">
+		<input>
+			<itemStack>thermalfoundation:fertilizer 1 1</itemStack>
+			<fluidStack>redstone 100</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:fertilizer 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<fluidStack>nutrient_distillation 125</fluidStack>
+			<fluidStack>biomass 125</fluidStack>
+			<oreDict>itemBiomass</oreDict>
+		</input>
+		<output>
+			<fluidStack>biocrude 250</fluidStack>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="64" power ="256">
+		<input>
+			<fluidStack>nutrient_distillation 100</fluidStack>
+			<fluidStack>biomass 100</fluidStack>
+			<oreDict>itemBiomassRich</oreDict>
+		</input>
+		<output>
+			<fluidStack>biocrude 500</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<fluidStack>nutrient_distillation 125</fluidStack>
+			<fluidStack>biomass 125</fluidStack>
+			<oreDict>itemBioblend</oreDict>
+		</input>
+		<output>
+			<fluidStack>biocrude 250</fluidStack>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="64" power ="256">
+		<input>
+			<fluidStack>nutrient_distillation 100</fluidStack>
+			<fluidStack>biomass 100</fluidStack>
+			<oreDict>itemBioblendRich</oreDict>
+		</input>
+		<output>
+			<fluidStack>biocrude 500</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>oil 1000</fluidStack>
+			<fluidStack>hydrogen 50</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustSulfur</oreDict>
+			<fluidStack>refined_oil 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>coal 1000</fluidStack>
+			<fluidStack>hydrogen 50</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustSulfur</oreDict>
+			<fluidStack>refined_oil 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="256">
+		<input>
+			<fluidStack>apatite 1000</fluidStack>
+			<fluidStack>solution 500</fluidStack>
+			<oreDict>dustCoke</oreDict>
+		</input>
+		<output>
+			<fluidStack>fluorine 500</fluidStack>
+			<itemStack>earthworks:item_chalk</itemStack>
+			<oreDict>dustGlowstone</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="256">
+		<input>
+			<fluidStack>redstone 500</fluidStack>
+			<fluidStack>hydrogen 500</fluidStack>
+			<oreDict>dustSulfur</oreDict>
+			<oreDict>dustSalt</oreDict>
+			<oreDict>nuggetEnderpearl</oreDict>
+			<oreDict>dustGlowstone</oreDict>
+		</input>
+		<output>
+			<fluidStack>endacid 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>endacid 20</fluidStack>
+			<fluidStack>dist_water 280</fluidStack>
+		</input>
+		<output>
+			<fluidStack>solution 300</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>solution 100</fluidStack>
+			<oreDict>dustSaltpeter</oreDict>
+		</input>
+		<output>
+			<fluidStack>nitrogen 50</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>shardUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>crystalUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dustEnrichedUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dirtyDustUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>clumpUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>crushedOreUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>oreUranium</oreDict>
+			<fluidStack>fluorine 250</fluidStack>
+		</input>
+		<output>
+			<oreDict>nuggetUranium 17</oreDict>
+			<oreDict>nuggetUraniumEnriched 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dustTitaniumIridium</oreDict>
+			<oreDict>dustMana</oreDict>
+			<fluidStack>vapor_of_levity 250</fluidStack>
+			<fluidStack>xpjuice 750</fluidStack>
+		</input>
+		<output>
+			<fluidStack>mana 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<itemStack>minecraft:snowball</itemStack>
+			<fluidStack>xpjuice 100</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustBlizz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dustSaltpeter</oreDict>
+			<fluidStack>xpjuice 100</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustBlitz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dustObsidian</oreDict>
+			<fluidStack>xpjuice 100</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustBasalz 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="256">
+		<input>
+			<oreDict>dustSulfur</oreDict>
+			<fluidStack>xpjuice 100</fluidStack>
+		</input>
+		<output>
+			<oreDict>dustBlaze 3</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<fluidStack>cryotheum 1000</fluidStack>
+			<fluidStack>nitrogen 1000</fluidStack>
+		</input>
+		<output>
+			<fluidStack>liquid_nitrogen 25</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<oreDict>dustIron</oreDict>
+			<oreDict>dustSulfur</oreDict>
+			<fluidStack>oxygen 25</fluidStack>
+			<fluidStack>refined_oil 500</fluidStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:rubber_sheet 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<oreDict>dustUranium</oreDict>
+			<fluidStack>redstone 100</fluidStack>
+			<fluidStack>lava 100</fluidStack>
+		</input>
+		<output>
+			<itemStack>deepresonance:resonating_ore 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemBiomass 4</oreDict>
+			<fluidStack>plantoil 100</fluidStack>
+		</input>
+		<output>
+			<oreDict>itemBiomassRich 4</oreDict>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="64" power ="256">
+		<input>
+			<oreDict>itemBiomass 4</oreDict>
+			<fluidStack>seed.oil 10</fluidStack>
+		</input>
+		<output>
+			<oreDict>itemBiomassRich 4</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<itemStack>minecraft:purpur_block 1 0</itemStack>
+			<fluidStack>ender 1000</fluidStack>
+		</input>
+		<output>
+			<itemStack>minecraft:shulker_shell</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<oreDict>bone</oreDict>
+			<fluidStack>poison 250</fluidStack>
+		</input>
+		<output>
+			<itemStack>venomousfangs:venomous_fang 1 0</itemStack>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="100" power ="256">
+		<input>
+			<oreDict>mushroomAny</oreDict>
+			<fluidStack>poison 250</fluidStack>
+		</input>
+		<output>
+			<itemStack>defiledlands:scuronotte 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<oreDict>listAllmeatraw</oreDict>
+			<fluidStack>poison 250</fluidStack>
+		</input>
+		<output>
+			<itemStack>minecraft:rotten_flesh 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>xpjuice 100</fluidStack>
+			<itemStack>netherex:frostburn_ice 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>netherex:bone_spider_fang 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>xpjuice 1000</fluidStack>
+			<itemStack>minecraft:prismarine 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>conduit:nautilus_shell 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>liquidsilver 144</fluidStack>
+			<itemStack>minecraft:fish 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:monster_egg 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>liquidsilver 144</fluidStack>
+			<itemStack>minecraft:fish 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:monster_egg 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>liquidsilver 144</fluidStack>
+			<itemStack>minecraft:fish 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:monster_egg 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>liquidsilver 144</fluidStack>
+			<itemStack>minecraft:fish 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:monster_egg 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>poison 250</fluidStack>
+			<itemStack>betternether:eye_seed 1 0</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:spider_eye 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>glowstone 1000</fluidStack>
+			<oreDict>dustNetherQuartz 4</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:ghast_tear 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="256">
+		<input>
+			<fluidStack>nutrient_distillation 250</fluidStack>
+			<itemStack>minecraft:dye 2 15</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:bone 1 0</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

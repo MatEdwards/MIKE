@@ -1,0 +1,44 @@
+{
+    "machine": "annihilator",
+    "registryName": "annihilator_clump_tin",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:clumpTin",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:shardTin",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:shardTin",
+            "amount": 1,
+			"chance": 0.33
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "aerotheum",
+            "amount": 100
+        },
+		{
+		    "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ball@6",
+            "amount": 1,
+			"chance": 0.05
+        }
+    ]
+}

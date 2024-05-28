@@ -1,0 +1,73 @@
+contenttweaker.part.dust_enriched=Enriched %s Dust
+contenttweaker.part.slurry=%s Mineral Slurry
+contenttweaker.part.wire=%s Wire
+contenttweaker.part.coin=%s Coin
+contenttweaker.part.shattered=Shattered %s Ore
+contenttweaker.part.lens=%s Infused Lens
+
+fluid.fluorine=Fluorine Gas
+fluid.solution=Disintegration Solution
+
+item.contenttweaker.one_percent.name=One Percent
+item.contenttweaker.safe.name=Safe
+item.contenttweaker.piggy_bank.name=Piggy Bank
+item.contenttweaker.credit_card.name=Credit Card
+item.contenttweaker.stock_ticker.name=Stock Ticker
+item.contenttweaker.gold_standard.name=Gold Standard
+item.contenttweaker.means_of_production.name=Means Of Production
+
+item.contenttweaker.ender_globule.name=Globule of Ender
+item.contenttweaker.syrup_bottle.name=Bottle of Syrup
+item.contenttweaker.rubber_sheet.name=Rubber Sheet
+item.contenttweaker.grinding_balls.name=Grinding Balls
+item.contenttweaker.mold_coin.name=Metal Press Mold: Coin
+item.contenttweaker.containment_empty.name=Empty Containment Capsule
+item.contenttweaker.containment_antimatter.name=Antimatter Containment Capsule
+item.contenttweaker.containment_redmatter.name=Red Matter Containment Capsule
+item.contenttweaker.neutron_reflector.name=Neutron Reflection and Tamper Assembly
+
+item.contenttweaker.bill.name=Single Bill ( 1 )
+item.contenttweaker.bill_wad.name=Wad of Bills ( 100 )
+item.contenttweaker.bill_case.name=Case of Bills ( 10,000 )
+
+item.contenttweaker.bills.name=Golden Bill ( 10 )
+item.contenttweaker.bill_wads.name=Wad of Golden Bills ( 1,000 )
+item.contenttweaker.bill_cases.name=Case of Golden Bills ( 100,000 )
+
+tile.contenttweaker.money_pile.name=Pile Of Bills ( 1,000,000 )
+tile.contenttweaker.money_pile_golden.name=Pile Of Golden Bills ( 10,000,000 )
+tile.contenttweaker.money_pile_ultimate.name=Ultimate Pile Of Bills ( 9,000,000,000 )
+
+tile.contenttweaker.detritus.name=Detritus
+
+tile.contenttweaker.lucrium.name=Lucrium Block (Borderless)
+tile.contenttweaker.lucrium_ud.name=Lucrium Block (Horizontal)
+tile.contenttweaker.lucrium_lr.name=Lucrium Block (Vertical)
+tile.contenttweaker.lucrium_udlr.name=Lucrium Block (Encased)
+
+tile.contenttweaker.sheet_metal_mithril.name=Mithril Sheet Metal
+tile.contenttweaker.sheet_metal_redstone.name=Redstone Alloy Sheet Metal
+tile.contenttweaker.sheet_metal_darksteel.name=Darksteel Sheet Metal
+tile.contenttweaker.sheet_metal_pulsating.name=Pulsating Iron Sheet Metal
+tile.contenttweaker.sheet_metal_vulcanite.name=Vulcanite Sheet Metal
+tile.contenttweaker.sheet_metal_bronze.name=Bronze Sheet Metal
+tile.contenttweaker.sheet_metal_tin.name=Tin Sheet Metal
+tile.contenttweaker.sheet_metal_titanium.name=Titanium Sheet Metal
+tile.contenttweaker.sheet_metal_iridium.name=Iridium Sheet Metal
+tile.contenttweaker.sheet_metal_enderium.name=Enderium Sheet Metal
+tile.contenttweaker.sheet_metal_lumium.name=Lumium Sheet Metal
+tile.contenttweaker.sheet_metal_invar.name=Invar Sheet Metal
+tile.contenttweaker.sheet_metal_ravaging.name=Ravaging Sheet Metal
+tile.contenttweaker.sheet_metal_vibrant.name=Vibrant Alloy Sheet Metal
+tile.contenttweaker.sheet_metal_umbrium.name=Umbrium Sheet Metal
+tile.contenttweaker.sheet_metal_modularium.name=Modularium Sheet Metal
+tile.contenttweaker.sheet_metal_construction.name=Construction Alloy Sheet Metal
+tile.contenttweaker.sheet_metal_titanium_aluminide.name=Titanium Aluminide Sheet Metal
+tile.contenttweaker.sheet_metal_soularium.name=Soularium Sheet Metal
+tile.contenttweaker.sheet_metal_conductive.name=Conductive Iron Sheet Metal
+tile.contenttweaker.sheet_metal_signalum.name=Signalum Sheet Metal
+tile.contenttweaker.sheet_metal_platinum.name=Platinum Sheet Metal
+tile.contenttweaker.sheet_metal_energetic.name=Energetic Alloy Sheet Metal
+tile.contenttweaker.sheet_metal_endsteel.name=Endsteel Sheet Metal
+tile.contenttweaker.sheet_metal_titanium_iridium.name=Titanium Iridium Sheet Metal
+tile.contenttweaker.sheet_metal_electrical_steel.name=Electrical Steel Sheet Metal

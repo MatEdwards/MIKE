@@ -1,0 +1,1 @@
+crooks.json: Unknown item inspirations:wooden_crook

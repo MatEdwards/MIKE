@@ -1,0 +1,37 @@
+{
+    "machine": "enricher",
+    "registryName": "enricher_ore_galaxite",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:oreGalaxite",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustEnrichedGalaxite",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustEnrichedGalaxite",
+            "amount": 1,
+			"chance": 0.33
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "petrotheum",
+            "amount": 100
+        }
+    ]
+}

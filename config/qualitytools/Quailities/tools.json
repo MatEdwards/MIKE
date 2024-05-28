@@ -1,0 +1,266 @@
+{
+    "comment": "These qualities will apply for all basic weapons and
+                tools, including swords, pickaxes, axes, shovels, hoes, 
+                and shears! For more info about how to edit this file 
+                and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "mainhand",
+    "whitelist": [
+      {
+        "class": "ItemTool"
+      },
+      {
+        "class": "ItemHoe"
+      },
+      {
+        "class": "ItemShears"
+      },
+      {
+        "class": "ItemSword"
+      },
+      {
+        "item": "thermalinnovation:drill"
+      },
+      {
+        "item": "thermalinnovation:saw"
+      },
+      {
+        "item": "immersiveengineering:drill"
+      }
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "normal",
+        "weight": 90
+      },
+      {
+        "name": "quality.long.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+	  {
+        "name": "quality.overlarge.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 1.0,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "quality.sharp.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.brutal.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.deft.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.flashing.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.hardened.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.destructive.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.30,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.excavating.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.tempered.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.keen.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.graceful.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.sweeping.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "quality.gigantic.name",
+        "color": "green",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.legendary.name",
+        "color": "light_purple",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

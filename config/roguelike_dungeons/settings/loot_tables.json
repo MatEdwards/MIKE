@@ -1,0 +1,11 @@
+{
+	"name" : "demo:loot_tables",
+	"loot_tables" : [
+		{
+		"level" : [0, 1, 2, 3, 4], 
+		"table" : "minecraft:chests/simple_dungeon",
+		"each" : true, 
+		"quantity" : 1
+		}
+	]
+}

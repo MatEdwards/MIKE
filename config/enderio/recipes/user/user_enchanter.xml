@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- 
+
+These are the built-in recipes. You cannot change this file, it is a
+reference for you only and will be generated every time the game starts.
+
+To make changes to the recipes, copy the recipes you want to change to
+a file in the 'user' folder. To disable a recipe, add an attribute "disabled"
+and set it to true, e.g.: <recipe name="Gear" disabled="true" />
+
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
+
+Item specifications can reference an alias, an ore dictionary name, a
+block or an item. You can force the type by prefixing the value with
+"oredict:", "block:" or "item:". Recipes that have items that cannot be
+found in-game are either skipped or an error, depending on their "required"
+attribute.
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
+
+ -->
+	<recipe name="Enchanter: minecraft:protection" required="true" disabled="true">
+		<enchanting>
+			<input name="DARK_STEEL" amount="16"/>
+			<enchantment name="minecraft:protection" costMultiplier="1"/>
+		</enchanting>
+	</recipe>
+  <recipe name="Enchanter: enderio:soulbound" required="true" disabled="true">
+    <enchanting>
+      <input name="ENDER_CRYSTAL" amount="1"/>
+      <enchantment name="enderio:soulbound" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: minecraft:mending" required="true" disabled="true">
+    <enchanting>
+      <input name="enderio:item_xp_transfer" amount="1"/>
+      <enchantment name="minecraft:mending" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:teleportation" required="true" disabled="false">
+    <enchanting>
+      <input name="quark:arrow_ender" amount="64"/>
+      <enchantment name="randomenchantments:teleportation" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: charm:homing" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalfoundation:tool.hoe_platinum" amount="1"/>
+      <enchantment name="charm:homing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: pumpkinlauncher:ammosaving" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:pumpkin" amount="16"/>
+      <enchantment name="pumpkinlauncher:ammosaving" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: charm:curse_break" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:dragon_egg" amount="1"/>
+      <enchantment name="charm:curse_break" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:stonebound" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:redstone_block" amount="1"/>
+      <enchantment name="randomenchantments:stonebound" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:harvesting" required="true" disabled="false">
+    <enchanting>
+      <input name="cyclicmagic:shears_obsidian" amount="1"/>
+      <enchantment name="randomenchantments:harvesting" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:exploding" required="true" disabled="false">
+    <enchanting>
+      <input name="cyclicmagic:ender_tnt_5" amount="12"/>
+      <enchantment name="randomenchantments:exploding" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: cyclicmagic:enchantment.waterwalking" required="true" disabled="false">
+    <enchanting>
+      <input name="moarboats:modular_boat" amount="1"/>
+      <enchantment name="cyclicmagic:enchantment.waterwalking" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:lightning" required="true" disabled="false">
+    <enchanting>
+      <input name="bullseye:arrow:7" amount="64"/>
+      <enchantment name="randomenchantments:lightning" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:ricochet" required="true" disabled="false">
+    <enchanting>
+      <input name="cyclicmagic:plate_launch_small" amount="12"/>
+      <enchantment name="randomenchantments:ricochet" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: withsprinkles:felling" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalfoundation:material:657" amount="10"/>
+      <enchantment name="withsprinkles:felling" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: withsprinkles:fracking" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalfoundation:material:656" amount="10"/>
+      <enchantment name="withsprinkles:fracking" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:obsidian_buster" required="true" disabled="false">
+    <enchanting>
+      <input name="extraanvils:diamond_anvil" amount="1"/>
+      <enchantment name="randomenchantments:obsidian_buster" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:stonelover" required="true" disabled="false">
+    <enchanting>
+      <input name="enderio:block_infinity:2" amount="9"/>
+      <enchantment name="randomenchantments:stonelover" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:true_shot" required="true" disabled="false">
+    <enchanting>
+      <input name="cyclicmagic:target" amount="16"/>
+      <enchantment name="randomenchantments:true_shot" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:back_to_the_chamber" required="true" disabled="false">
+    <enchanting>
+      <input name="bullseye:arrow:3" amount="12"/>
+      <enchantment name="randomenchantments:back_to_the_chamber" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:grappling" required="true" disabled="false">
+    <enchanting>
+      <input name="immersiveengineering:skyhook" amount="1"/>
+      <enchantment name="randomenchantments:grappling" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: pumpkinlauncher:blastshield" required="true" disabled="false">
+    <enchanting>
+      <input name="immersiveengineering:shield" amount="1"/>
+      <enchantment name="pumpkinlauncher:blastshield" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:momentum" required="true" disabled="false">
+    <enchanting>
+      <input name="advancedrocketry:jackhammer" amount="1"/>
+      <enchantment name="randomenchantments:momentum" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: cyclicmagic:enchantment.venom" required="true" disabled="false">
+    <enchanting>
+      <input name="icbmclassic:poisonpowder" amount="16"/>
+      <enchantment name="cyclicmagic:enchantment.venom" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: enderio:shimmer" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:glowstone_dust" amount="1"/>
+      <enchantment name="enderio:shimmer" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: defiledlands:blazing" required="true" disabled="false">
+    <enchanting>
+      <input name="defiledlands:hephaestite_block" amount="4"/>
+      <enchantment name="defiledlands:blazing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: defiledlands:safeguard" required="true" disabled="false">
+    <enchanting>
+      <input name="defiledlands:umbrium_block" amount="1"/>
+      <enchantment name="defiledlands:safeguard" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: defiledlands:economical" required="true" disabled="false">
+    <enchanting>
+      <input name="defiledlands:blastem_seed" amount="20"/>
+      <enchantment name="defiledlands:economical" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: defiledlands:destructive" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:tnt" amount="12"/>
+      <enchantment name="defiledlands:destructive" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: defiledlands:sharpshooter" required="true" disabled="false">
+    <enchanting>
+      <input name="defiledlands:scuttler_eye" amount="20"/>
+      <enchantment name="defiledlands:sharpshooter" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: bibliocraft:bibliocraft.deathcompassench" required="true" disabled="false">
+    <enchanting>
+      <input name="bibliocraft:compass" amount="1"/>
+      <enchantment name="bibliocraft:bibliocraft.deathcompassench" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:homing" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:spectral_arrow" amount="64"/>
+      <enchantment name="randomenchantments:homing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:piercing" required="true" disabled="false">
+    <enchanting>
+      <input name="bullseye:arrow:8" amount="64"/>
+      <enchantment name="randomenchantments:piercing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: cyclicmagic:enchantment.reach" required="true" disabled="false">
+    <enchanting>
+      <input name="modularutilities:ender_glove" amount="1"/>
+      <enchantment name="cyclicmagic:enchantment.reach" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:quickdraw" required="true" disabled="false">
+    <enchanting>
+      <input name="advancedrocketry:productgear:1" amount="4"/>
+      <enchantment name="randomenchantments:quickdraw" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:torches" required="true" disabled="false">
+    <enchanting>
+      <input name="quark:arrow_torch" amount="64"/>
+      <enchantment name="randomenchantments:torches" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:phasing" required="true" disabled="false">
+    <enchanting>
+      <input name="enderio:item_travel_staff" amount="1"/>
+      <enchantment name="randomenchantments:phasing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: pumpkinlauncher:reloadingspeed" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalfoundation:material:293" amount="4"/>
+      <enchantment name="pumpkinlauncher:reloadingspeed" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: pumpkinlauncher:launching" required="true" disabled="false">
+    <enchanting>
+      <input name="mumboredstone:powerpiston" amount="2"/>
+      <enchantment name="pumpkinlauncher:launching" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: randomenchantments:floating" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:shulker_shell" amount="4"/>
+      <enchantment name="randomenchantments:floating" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: cofhcore:smashing" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalfoundation:tool.hammer_diamond" amount="1"/>
+      <enchantment name="cofhcore:smashing" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: bibliocraft:bibliocraft.readingench" required="true" disabled="false">
+    <enchanting>
+      <input name="bibliocraft:biblioglasses:0" amount="1"/>
+      <enchantment name="bibliocraft:bibliocraft.readingench" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: bibliocraft:bibliocraft.readingench alternate" required="true" disabled="false">
+    <enchanting>
+      <input name="bibliocraft:biblioglasses:1" amount="1"/>
+      <enchantment name="bibliocraft:bibliocraft.readingench" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: aerialaffinity:aerial_affinity" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:elytra" amount="1"/>
+      <enchantment name="aerialaffinity:aerial_affinity" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: charm:magnetic" required="true" disabled="false">
+    <enchanting>
+      <input name="thermalinnovation:magnet:4" amount="1"/>
+      <enchantment name="charm:magnetic" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: vt:hops" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:slime" amount="4"/>
+      <enchantment name="vt:hops" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: vt:nimble" required="true" disabled="false">
+    <enchanting>
+      <input name="quark:sugar_block" amount="16"/>
+      <enchantment name="vt:nimble" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: vt:vigor" required="true" disabled="false">
+    <enchanting>
+      <input name="cyclicmagic:heart_food" amount="1"/>
+      <enchantment name="vt:vigor" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+    <recipe name="Enchanter: grapplemod:slidingenchantment" required="true" disabled="false">
+    <enchanting>
+      <input name="immersiveengineering:toolupgrade:1" amount="1"/>
+      <enchantment name="grapplemod:slidingenchantment" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+      <recipe name="Enchanter: grapplemod:doublejumpenchantment" required="true" disabled="false">
+    <enchanting>
+      <input name="advancedrocketry:rocketmotor" amount="1"/>
+      <enchantment name="grapplemod:doublejumpenchantment" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+        <recipe name="Enchanter: grapplemod:wallrunenchantment" required="true" disabled="false">
+    <enchanting>
+      <input name="icbmclassic:spikes" amount="6"/>
+      <enchantment name="grapplemod:wallrunenchantment" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+</enderio:recipes>
+
