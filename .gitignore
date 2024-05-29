@@ -1,0 +1,14 @@
+#Ignoring everything except these important folders.
+#This way you can use this github repo as a minecraft instance without cluttering it up.
+
+/*
+!/mods
+!/resources
+!/scripts
+!/config
+ 
+!LICENSE
+!.gitattributes
+!.github
+!.git
+!.gitignore
