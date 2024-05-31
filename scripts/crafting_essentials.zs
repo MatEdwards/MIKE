@@ -39,4 +39,16 @@ recipes.addShaped(<essentials:slotted_chest>,
 	]);
 
 
-
+recipes.remove(<essentials:port_extender>);
+recipes.addShaped(<essentials:port_extender>,
+[
+	[null,<ore:ingotAluminum>,null],
+	[<ore:ingotAluminum>,<ore:hopper>,<ore:ingotAluminum>],
+	[null,<ore:ingotAluminum>,null]
+]);
+recipes.addShaped(<essentials:port_extender>,
+[
+	[null,<ore:ingotAluminum>,null],
+	[<ore:ingotAluminum>,<essentials:sorting_hopper>,<ore:ingotAluminum>],
+	[null,<ore:ingotAluminum>,null]
+]);

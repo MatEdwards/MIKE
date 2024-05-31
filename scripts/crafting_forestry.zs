@@ -1,3 +1,5 @@
+import mods.forestry.Carpenter;
+
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
 
@@ -34,3 +36,62 @@ recipes.addShaped(<forestry:raintank>,
 	[<ore:plankWood>,<minecraft:bucket>,<ore:plankWood>],
 	[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
 	]);
+
+
+
+	//The following recipes are to change tin to aluminum in the name of the great tech overhaul.
+recipes.remove(<forestry:smoker>);
+recipes.addShapedMirrored(<forestry:smoker>,
+[
+	[<ore:leather>,<ore:sticKWood>,<ore:ingotAluminum>],
+	[<ore:leather>,<minecraft:flint_and_steel>,<ore:ingotAluminum>],
+	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]
+]);
+
+recipes.remove(<forestry:mailbox>);
+recipes.addShaped(<forestry:mailbox>,
+[
+	[null,<ore:ingotAluminum>,null],
+	[<ore:ingotAluminum>,<forestry:sturdy_machine>,<ore:ingotAluminum>],
+	[<ore:chestWood>,<ore:chestWood>,<ore:chestWood>]
+]);
+
+recipes.remove(<forestry:squeezer>);
+recipes.addShaped(<forestry:squeezer>,
+[
+	[<ore:ingotAluminum>,<ore:blockGlass>,<ore:ingotAluminum>],
+	[<ore:ingotAluminum>,<forestry:sturdy_machine>,<ore:ingotAluminum>],
+	[<ore:ingotAluminum>,<ore:blockGlass>,<ore:ingotAluminum>]
+	]);
+
+recipes.remove(<forestry:can>);
+recipes.addShaped(<forestry:can>*12,[
+[<ore:ingotAluminum>,null,<ore:ingotAluminum>],
+[null,<ore:ingotAluminum>,null]]);
+
+
+recipes.remove(<forestry:stamps:2>);
+recipes.addShaped(<forestry:stamps:2>*9,
+[
+	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
+	[<ore:paper>,<ore:paper>,<ore:paper>],
+	[<ore:dropHoney>,<ore:dropHoney>,<ore:dropHoney>]
+]);
+
+mods.forestry.Carpenter.removeRecipe(<forestry:stamps:2>);
+mods.forestry.Carpenter.addRecipe(<forestry:stamps:2> * 9,
+[
+	[null,null,null],
+	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
+	[<ore:paper>,<ore:paper>,<ore:paper>]
+],30,<liquid:seed.oil> * 300);
+
+mods.forestry.Carpenter.removeRecipe(<forestry:stamps:2>);
+mods.forestry.Carpenter.addRecipe(<forestry:stamps:2> * 9,
+[
+	[null,null,null],
+	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
+	[<ore:paper>,<ore:paper>,<ore:paper>]
+],30,<liquid:oliveoil> * 300);
+
+

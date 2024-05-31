@@ -15,7 +15,7 @@ recipes.addShaped(<thermalinnovation:saw>,
 [<ore:ingotAluminum>,<ore:gearBronze>,<ore:ingotAluminum>]]);
 
 recipes.remove(<thermalinnovation:magnet>);
-recipes.addShaped(<thermalinnovation:magnet,[
+recipes.addShaped(<thermalinnovation:magnet>,[
     [<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],
     [<ore:ingotSilver>,<ore:ingotIron>,<ore:ingotSilver>],
     [null,<ore:dustRedstone>,null]
