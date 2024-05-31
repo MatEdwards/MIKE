@@ -161,6 +161,11 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9> * 4,
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9> * 4, <ore:ingotIron>, null, 100, 512, [<ore:ingotVulcanite> * 3], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9> * 4, <ore:ingotIron>, null, 100, 512, [<ore:ingotConstructionAlloy> * 3], "Alloying");
 
+    //changing bronze to use aluminium instead of tin.
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:163>);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:163>*4, <ore:ingotAluminum>, null, 100, 512, [<ore:ingotCopper> * 3], "Alloying");
+    
+
 // Crusher
 mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:gravel>);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 1600, <minecraft:flint>, 0.125);
@@ -254,6 +259,11 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:9> * 
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:9> * 4, <ore:ingotIron>, <ore:ingotIridium> * 3, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:9> * 4, <ore:ingotIron>, <ore:ingotVulcanite> * 3, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:9> * 4, <ore:ingotIron>, <ore:ingotConstructionAlloy> * 3, 200);
+
+
+    //Changing bronze to use aluminium instead of tin:
+    mods.immersiveengineering.AlloySmelter.removeRecipe(<thermalfoundation:material:163>);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:163>*4,<ore:ingotCopper>*3,<ore:ingotAluminum>,200);
 
 // Mixer
 
