@@ -2,13 +2,23 @@
 #This way you can use this github repo as a minecraft instance without cluttering it up.
 
 /*
+
+#This un-ignores the directories we are working with
 !/mods
 !/resources
 !/scripts
 !/config
  
+#This unignores github things
 !LICENSE
 !.gitattributes
 !.github
 !.git
 !.gitignore
+
+#This re-ignores configs that are user-specific and clutter our commits. We don't need to include these specific config files in our repo because they contain user configurations.
+
+/config/InvTweaks/InvTweaks.cfg
+/config/jei/worldSettings.cfg
+/config/splash.properties
+
