@@ -37,3 +37,17 @@ mods.foundry.Melting.addRecipe(<liquid:lava> * 200, <quark:basalt>, 1000, 200);
 mods.foundry.Melting.addRecipe(<liquid:lava> * 125, <minecraft:magma_cream>, 1000, 125);
 mods.foundry.Melting.addRecipe(<liquid:lava> * 500, <minecraft:magma>, 1000, 500);
 mods.foundry.Melting.addRecipe(<liquid:lava> * 1000, <orestack:obsidian>, 1000, 1000);
+
+//Changing the recipe for liquid bronze
+    //crucible
+mods.foundry.AlloyingCrucible.removeRecipe(<liquid:liquidcopper> * 9,<liquid:liquidtin>*3);
+mods.foundry.AlloyingCrucible.removeRecipe(<liquid:liquidcopper> * 9,<liquid:liquidaluminium>*3);
+
+mods.foundry.AlloyingCrucible.addRecipe(<liquid:liquidbronze>*12,<liquid:liquidcopper>*9,<liquid:liquidaluminium>*3);
+
+    //alloy mixer
+mods.foundry.AlloyMixer.removeRecipe([<liquid:liquidcopper> * 3,<liquid:liquidtin>*1]);
+mods.foundry.AlloyMixer.removeRecipe([<liquid:liquidcopper> * 3,<liquid:liquidaluminium>*1]);
+
+mods.foundry.AlloyMixer.addRecipe(<liquid:liquidbronze>*4,[<liquid:liquidcopper>*3,<liquid:liquidaluminium>*1]);
+

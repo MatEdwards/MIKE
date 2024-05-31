@@ -16,3 +16,8 @@ recipes.addShapeless(<thermalfoundation:fertilizer:1> * 8, [<ore:itemBiomassRich
 recipes.addShapeless(<thermalfoundation:fertilizer:1> * 8, [<ore:itemBioblendRich>, <ore:dustCharcoal>, <ore:dustSaltpeter>, <ore:crystalSlag>]);
 
 recipes.removeByRecipeName("thermalfoundation:saddle");
+
+
+//new recipe for bronze blend using aluminium instead of tin
+recipes.remove(<thermalfoundation:material:99>);
+recipes.addShapeless(<thermalfoundation:material:99>,[<ore:dustCopper>,<ore:dustCopper>,<ore:dustCopper>,<ore:dustAluminum>]);
