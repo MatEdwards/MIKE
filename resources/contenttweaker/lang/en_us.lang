@@ -8,6 +8,8 @@ contenttweaker.part.lens=%s Infused Lens
 fluid.fluorine=Fluorine Gas
 fluid.solution=Disintegration Solution
 
+item.contenttweaker.integrated_circuit.name=Integrated Circuit
+
 item.contenttweaker.one_percent.name=One Percent
 item.contenttweaker.safe.name=Safe
 item.contenttweaker.piggy_bank.name=Piggy Bank

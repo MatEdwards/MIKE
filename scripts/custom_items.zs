@@ -14,8 +14,14 @@ import mods.contenttweaker.MaterialSystem;
 // VanillaFactory
 ###
 
+	
 //var zsItemName = VanillaFactory.createItem("item_name");
 //zsItemName.register();
+
+	//Integrated Circuits
+var zsIntegratedCircuit = VanillaFactory.createItem("integrated_circuit");
+zsIntegratedCircuit.register();
+
 
 var zsEnderGlobule = VanillaFactory.createItem("ender_globule");
 zsEnderGlobule.register();
