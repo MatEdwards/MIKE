@@ -6,6 +6,10 @@ recipes.remove(<railcraft:tool_notepad>);
 recipes.addShapeless(<railcraft:tool_notepad>,
 [<ore:dyeBlack>,<ore:feather>,<ore:paper>,<railcraft:tool_magnifying_glass>]);
 
+//changing recipes for strengthened glass to use aluminium and to remove recipes that involve removed metals
+recipes.remove(<railcraft:glass>*6);
+recipes.addShaped(<railcraft:glass>*8,[[<railcraft:glass>,<railcraft:glass>,<railcraft:glass>],[<railcraft:glass>,<ore:dyeWhite>,<railcraft:glass>],[<railcraft:glass>,<railcraft:glass>,<railcraft:glass>]]);
+recipes.addShaped(<railcraft:glass>*6,[[<ore:blockGlass>,<ore:ingotAluminum>,<ore:blockGlass>],[<ore:blockGlass>,<ore:dustSaltpeter>,<ore:blockGlass>],[<ore:blockGlass>,<fluid:water>*1000,<ore:blockGlass>]]);
 
 //crafting recipe for stone ties
 mods.forestry.Carpenter.removeRecipe(<railcraft:tie:1>);
