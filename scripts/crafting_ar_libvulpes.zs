@@ -39,3 +39,11 @@ recipes.addShapeless(<advancedrocketry:concrete> * 2, [<minecraft:sand:*>, <mine
 
 recipes.remove(<advancedrocketry:blastbrick>);
 recipes.addShapeless(<advancedrocketry:blastbrick> * 6, [<minecraft:magma_cream>, <minecraft:magma_cream>, <minecraft:brick_block:*>, <minecraft:brick_block:*>, <minecraft:brick_block:*>, <minecraft:brick_block:*>]);
+
+recipes.remove(<libvulpes:battery>);
+recipes.addShaped(<libvulpes:battery>*4,
+[
+	[null,<ore:rodIron>,null],
+	[<ore:plateAluminum>,<ore:dustRedstone>,<ore:plateAluminum>],
+	[<ore:plateAluminum>,<ore:dustRedstone>,<ore:plateAluminum>]
+]);

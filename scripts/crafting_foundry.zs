@@ -51,3 +51,11 @@ recipes.addShaped(<foundry:component>*2,
 [<ore:stickCopper>,<ore:stickCopper>,<ore:stickCopper>]
 ]);
 
+recipes.remove(<foundry:fluidcontainer>);
+recipes.addShaped(<foundry:fluidcontainer>*2,
+[
+	[null,<ore:plateAluminum>,null],
+	[<foundry:component:2>,<foundry:refractoryglass>,<foundry:component:2>],
+	[null,<ore:plateAluminum>,null]
+]);
+

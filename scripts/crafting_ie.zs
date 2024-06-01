@@ -16,3 +16,12 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 4, [[<ore:plateSt
 recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic");
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 16, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 24, [[<contenttweaker:rubber_sheet>, <contenttweaker:rubber_sheet>, <contenttweaker:rubber_sheet>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+
+// Change fluid pipes to be crafted with Aluminium
+recipes.remove(<immersiveengineering:metal_device1:6>);
+recipes.addShaped(<immersiveengineering:metal_device1:6>*8,
+[
+    [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>],
+    [null,null,null],
+    [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>]
+]);

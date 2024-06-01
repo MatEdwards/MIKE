@@ -77,21 +77,3 @@ recipes.addShaped(<forestry:stamps:2>*9,
 	[<ore:paper>,<ore:paper>,<ore:paper>],
 	[<ore:dropHoney>,<ore:dropHoney>,<ore:dropHoney>]
 ]);
-
-mods.forestry.Carpenter.removeRecipe(<forestry:stamps:2>);
-mods.forestry.Carpenter.addRecipe(<forestry:stamps:2> * 9,
-[
-	[null,null,null],
-	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
-	[<ore:paper>,<ore:paper>,<ore:paper>]
-],30,<liquid:seed.oil> * 300);
-
-mods.forestry.Carpenter.removeRecipe(<forestry:stamps:2>);
-mods.forestry.Carpenter.addRecipe(<forestry:stamps:2> * 9,
-[
-	[null,null,null],
-	[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
-	[<ore:paper>,<ore:paper>,<ore:paper>]
-],30,<liquid:oliveoil> * 300);
-
-
