@@ -79,6 +79,31 @@ recipes.addShaped(<railcraft:brick_pearlized:2>*8,
 	[<ore:endstone>,<ore:endstone>,<ore:endstone>]
 	]);
 
+//removing lead from flux loader recipes
+recipes.remove(<railcraft:manipulator:10>);
+recipes.addShaped(<railcraft:manipulator:10>,
+[
+	[<ore:blockRedstone>,<ore:blockSilver>,<ore:blockRedstone>],
+	[<ore:blockSilver>,<ore:blockRedstone>,<ore:blockSilver>],
+	[<ore:blockRedstone>,<railcraft:detector:7>,<ore:blockRedstone>]
+	]);
+
+recipes.remove(<railcraft:manipulator:11>);
+recipes.addShaped(<railcraft:manipulator:11>,
+[
+	[<ore:blockRedstone>,<railcraft:detector:7>,<ore:blockRedstone>],
+	[<ore:blockSilver>,<ore:blockRedstone>,<ore:blockSilver>],
+	[<ore:blockRedstone>,<ore:blockSilver>,<ore:blockRedstone>]
+]);
+
+recipes.remove(<railcraft:cart_redstone_flux>);
+recipes.addShaped(<railcraft:cart_redstone_flux>,
+[
+	[<ore:ingotSilver>,<ore:blockRedstone>,<ore:ingotSilver>],
+	[<ore:blockRedstone>,<minecraft:minecart>,<ore:blockRedstone>],
+	[<ore:ingotSilver>,<ore:blockRedstone>,<ore:ingotSilver>]
+]);
+
 
 
 //recipes for track kit parts

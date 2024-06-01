@@ -16,3 +16,12 @@ recipes.addShaped(<engineersdecor:slag_brick_block>*5,
 	[<ore:ingotBrick>,<ore:itemSlag>, <ore:ingotBrick>],
 	[<ore:ingotBrick>,<ore:ingotBrick>,<ore:ingotBrick>]
 	]);
+
+//changing the solar panel to use silver
+recipes.remove(<engineersdecor:small_solar_panel>);
+recipes.addShaped(<engineersdecor:small_solar_panel>,
+[
+	[<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>],
+	[null,<ore:ingotSteel>,null],
+	[<ore:blockSilver>,<ore:blockRedstone>,<ore:blockSilver>]
+]);
