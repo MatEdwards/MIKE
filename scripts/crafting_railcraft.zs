@@ -135,6 +135,158 @@ recipes.addShapeless(<railcraft:brick_granite>,[<quark:world_stone_bricks>]);
 recipes.remove(<railcraft:brick_andesite>);
 recipes.addShapeless(<railcraft:brick_andesite>,[<quark:world_stone_bricks:2>]);
 	
+
+//Recipes for signals stuff
+
+	val circuit = <immersiveengineering:material:27>;
+
+	//Signal interlock box
+recipes.remove(<railcraft:signal_box:3>);
+recipes.addShaped(<railcraft:signal_box:3>*2,
+[
+	[null,circuit,null],
+	[<ore:ingotIron>,circuit,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]
+]);
+
+	//Analog signal controller box
+recipes.remove(<railcraft:signal_box>);
+recipes.addShaped(<railcraft:signal_box>*2,
+[
+	[<ore:ingotIron>,circuit,<ore:ingotIron>],
+	[<ore:ingotIron>,<minecraft:comparator>,<ore:ingotIron>]
+]);
+
+	//signal controller box
+recipes.remove(<railcraft:signal_box:2>);
+recipes.addShaped(<railcraft:signal_box:2>*2,
+[
+	[<ore:ingotIron>,circuit,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]
+]);
+
+	//trackman's goggles
+recipes.remove(<railcraft:armor_goggles>);
+recipes.addShaped(<railcraft:armor_goggles>,
+[
+	[<ore:paneGlass>,circuit,<ore:paneGlass>],
+	[<ore:ingotSteel>,null,<ore:ingotSteel>],
+	[<ore:itemLeather>,<ore:itemLeather>,<ore:itemLeather>]
+]);
+
+	//Distant signal
+recipes.remove(<railcraft:signal:1>);
+recipes.addShapedMirrored(<railcraft:signal:1>*2,
+[
+	[<ore:electronTube>,<ore:ingotIron>],
+	[circuit,<ore:ingotIron>]
+]);
+
+	//Dual-Head block signal
+recipes.remove(<railcraft:signal_dual>);
+recipes.addShapedMirrored(<railcraft:signal_dual>*2,
+[
+	[<ore:electronTube>,circuit,<ore:ingotIron>],
+	[null,null,<ore:ingotIron>],
+	[<ore:electronTube>,circuit,<ore:ingotIron>]
+]);
+
+	//Dual-head distant signal
+recipes.remove(<railcraft:signal_dual:1>);
+recipes.addShaped(<railcraft:signal_dual:1>*2,
+[
+	[<ore:electronTube>,circuit,<ore:ingotIron>],
+	[null,<ore:ingotIron>,<ore:ingotIron>],
+	[<ore:electronTube>,circuit,<ore:ingotIron>]
+]);
+
+	//Dual-head token signal
+recipes.remove(<railcraft:signal_dual:2>);
+recipes.addShapedMirrored(<railcraft:signal_dual:2>*2,
+[
+	[<ore:electronTube>,circuit,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:ingotIron>,null],
+	[<ore:electronTube>,circuit,<ore:ingotIron>]
+]);
+
+	//signal receiver box
+recipes.remove(<railcraft:signal_box:4>);
+recipes.addShaped(<railcraft:signal_box:4>*2,
+[
+	[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],
+	[<ore:ingotIron>,circuit,<ore:ingotIron>]
+]);
+
+	//signal tuner
+recipes.remove(<railcraft:tool_signal_tuner>);
+recipes.addShaped(<railcraft:tool_signal_tuner>,
+[
+	[null,<minecraft:redstone_torch>,null],
+	[<minecraft:stone_button>,circuit,<minecraft:stone_button>]
+]);
+
+	//switch actuator motor
+recipes.remove(<railcraft:actuator:1>);
+recipes.addShapedMirrored(<railcraft:actuator:1>*2,
+[
+	[<minecraft:piston>,circuit,<ore:ingotIron>]
+]);
+
+	//Block signal
+recipes.remove(<railcraft:signal>);
+recipes.addShapedMirrored(<railcraft:signal>*2,
+[
+	[<ore:electronTube>,circuit,<ore:ingotIron>],
+	[null,null,<ore:ingotIron>]
+]);
+
+	//signal box relay
+recipes.remove(<railcraft:signal_box:5>);
+recipes.addShaped(<railcraft:signal_box:5>*2,
+[
+	[<ore:ingotIron>,circuit,<ore:ingotIron>],
+	[<ore:ingotIron>,circuit,<ore:ingotIron>]
+]);
+
+	//token signal
+recipes.remove(<railcraft:signal:2>);
+recipes.addShapedMirrored(<railcraft:signal:2>*2,
+[
+[circuit,<ore:ingotIron>],
+[<ore:electronTube>,<ore:ingotIron>]
+]);
+
+	//Signal sequence box
+recipes.remove(<railcraft:signal_box:6>);
+recipes.addShaped(<railcraft:signal_box:6>*2,
+[
+	[<ore:ingotIron>,<minecraft:comparator>,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]
+]);
+
+	//Signal capacitor box
+recipes.remove(<railcraft:signal_box:1>);
+recipes.addShaped(<railcraft:signal_box:1>*2,
+[
+	[<ore:ingotIron>,<minecraft:repeater>,<ore:ingotIron>],
+	[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]
+]);
+
+
+//switch actuator lever
+recipes.remove(<railcraft:actuator>);
+recipes.addShapedMirrored(<railcraft:actuator>*2,
+[
+	[<minecraft:piston>,<minecraft:lever>,<ore:ingotIron>]
+]);
+
+
+
+
+
+
+
+
 	//array for dyes
 val color = [
 	<ore:dyeWhite>,

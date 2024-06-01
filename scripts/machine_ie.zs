@@ -1,6 +1,14 @@
 // Blueprints
 mods.immersiveengineering.Blueprint.addRecipe("molds", <contenttweaker:mold_coin>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 
+    //Vacuum tubes use silver instead of nickel
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);
+mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering:material:26> * 3,[<ore:blockGlass>,<ore:plateSilver>,<ore:wireCopper>,<ore:dustRedstone>]);
+
+    //Basic Circuits use capacitors now
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
+mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering:material:27>,[<immersiveengineering:stone_decoration:8>,<ore:plateCopper>,<enderio:item_basic_capacitor>,<ore:electronTube>]);
+
 // Bottling Machine
 
 mods.immersiveengineering.BottlingMachine.addRecipe(<birdsfoods:bottle_of_milk>, <minecraft:glass_bottle>, <liquid:milk> * 250);
