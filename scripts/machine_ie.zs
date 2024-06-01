@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 // Blueprints
 mods.immersiveengineering.Blueprint.addRecipe("molds", <contenttweaker:mold_coin>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 
@@ -8,6 +9,49 @@ mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering
     //Basic Circuits use capacitors now
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
 mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering:material:27>,[<immersiveengineering:stone_decoration:8>,<ore:plateCopper>,<enderio:item_basic_capacitor>,<ore:electronTube>]);
+
+    //Adding a new blueprint for railcraft stuff
+val trackblueprint = <immersiveengineering:blueprint>.withTag({blueprint: "track"});
+trackblueprint.addTooltip("Track Kits");
+mods.jei.JEI.addItem(trackblueprint);
+recipes.addShaped(trackblueprint,
+[
+    [null,<railcraft:track_parts>,null],
+    [<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+    [<ore:paper>,<ore:paper>,<ore:paper>]
+]);
+
+val trackKits = [
+    <railcraft:track_kit:1>.withTag({railcraft: {kit: "railcraft_activator"}}),
+    <railcraft:track_kit:2>.withTag({railcraft: {kit: "railcraft_booster"}}),
+    <railcraft:track_kit:3>.withTag({railcraft: {kit: "railcraft_buffer"}}),
+    <railcraft:track_kit:4>.withTag({railcraft: {kit: "railcraft_control"}}),
+    <railcraft:track_kit:5>.withTag({railcraft: {kit: "railcraft_detector"}}),
+    <railcraft:track_kit:6>.withTag({railcraft: {kit: "railcraft_disembarking"}}),
+    <railcraft:track_kit:7>.withTag({railcraft: {kit: "railcraft_dumping"}}),
+    <railcraft:track_kit:8>.withTag({railcraft: {kit: "railcraft_embarking"}}),
+    <railcraft:track_kit:9>.withTag({railcraft: {kit: "railcraft_gated"}}),
+    <railcraft:track_kit:10>.withTag({railcraft: {kit: "railcraft_locking"}}),
+    <railcraft:track_kit:11>.withTag({railcraft: {kit: "railcraft_one_way"}}),
+    <railcraft:track_kit:15>.withTag({railcraft: {kit: "railcraft_messenger"}}),
+    <railcraft:track_kit:16>.withTag({railcraft: {kit: "railcraft_delayed"}}),
+    <railcraft:track_kit:17>.withTag({railcraft: {kit: "railcraft_priming"}}),
+    <railcraft:track_kit:18>.withTag({railcraft: {kit: "railcraft_launcher"}}),
+    <railcraft:track_kit:19>.withTag({railcraft: {kit: "railcraft_whistle"}}),
+    <railcraft:track_kit:20>.withTag({railcraft: {kit: "railcraft_locomotive"}}),
+    <railcraft:track_kit:21>.withTag({railcraft: {kit: "railcraft_throttle"}}),
+    <railcraft:track_kit:22>.withTag({railcraft: {kit: "railcraft_routing"}}),
+    <railcraft:track_kit:23>.withTag({railcraft: {kit: "railcraft_transition"}}),
+    <railcraft:track_kit:24>.withTag({railcraft: {kit: "railcraft_coupler"}})
+	] as IItemStack[];
+
+for kit in trackKits {
+    recipes.remove(kit);
+    mods.immersiveengineering.Blueprint.addRecipe("track",kit*8,[<railcraft:track_parts>,<railcraft:track_parts>,<ore:dustRedstone>]);
+}
+
+
+
 
 // Bottling Machine
 

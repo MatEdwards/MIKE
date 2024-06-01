@@ -26,7 +26,7 @@ recipes.addShaped(<immersiveengineering:metal_device1:6>*8,
     [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>]
 ]);
 
-// Changing capacitors to use silver instead of dustLead
+// Changing capacitors to use silver instead of Lead
 recipes.remove(<immersiveengineering:metal_device0>);
 recipes.addShaped(<immersiveengineering:metal_device0>,
 [
@@ -50,4 +50,3 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>,
     [<ore:ingotAluminum>,<ore:blockSilver>,<ore:ingotAluminum>],
     [<ore:plankTreatedWood>,<ore:blockRedstone>,<ore:plankTreatedWood>]
 ]);
-
