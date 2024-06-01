@@ -191,7 +191,7 @@
 			"generator": {
 				"block": [
 					{
-						"name": "enderore:ore_ender",
+						"name": "enderore:ore_ender"
 					}
 				],
 				"material": [

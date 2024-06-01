@@ -45,24 +45,12 @@
 						"weight": 12
 					},
 					{
-						"name": "gravelores:tin_gravel_ore",
-						"weight": 12
-					},
-					{
 						"name": "gravelores:silver_gravel_ore",
 						"weight": 2
 					},
 					{
-						"name": "gravelores:lead_gravel_ore",
-						"weight": 6
-					},
-					{
 						"name": "gravelores:aluminum_gravel_ore",
 						"weight": 6
-					},
-					{
-						"name": "gravelores:nickel_gravel_ore",
-						"weight": 2
 					},
 					{
 						"name": "gravelores:coal_gravel_ore",
