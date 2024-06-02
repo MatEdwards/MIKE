@@ -192,3 +192,13 @@ recipes.addShaped(<enderio:item_material:2>,
 	[<ore:ingotIronic>,lightEngineeringBlock,<ore:ingotIronic>],
 	[<ore:ingotIronic>,<ore:ingotIronic>,<ore:ingotIronic>]
 ]);
+
+
+//Recipe for double layer double layered capacitor
+recipes.remove(<enderio:item_basic_capacitor:1>);
+recipes.addShaped(<enderio:item_basic_capacitor:1>,
+[
+	[null,<ore:ingotElectrum>,null],
+	[<enderio:item_basic_capacitor>,<ore:plateSilicon>,<enderio:item_basic_capacitor>],
+	[null,<ore:ingotElectrum>,null]
+]);

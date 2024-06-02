@@ -10,9 +10,11 @@ mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
 mods.immersiveengineering.Blueprint.addRecipe("components",<immersiveengineering:material:27>,[<immersiveengineering:stone_decoration:8>,<ore:plateCopper>,<enderio:item_basic_capacitor>,<ore:electronTube>]);
 
+    //The new Integrated Circuit item
+mods.immersiveengineering.Blueprint.addRecipe("components",<contenttweaker:integrated_circuit>,[<ore:plateSilicon>,<ore:plateElectrum>,<enderio:item_basic_capacitor:1>,<immersiveengineering:material:27>]);
+
     //Adding a new blueprint for railcraft stuff
-val trackblueprint = <immersiveengineering:blueprint>.withTag({blueprint: "track"});
-trackblueprint.addTooltip("Track Kits");
+val trackblueprint = <immersiveengineering:blueprint>.withTag({blueprint: "Track Kits"});
 mods.jei.JEI.addItem(trackblueprint);
 recipes.addShaped(trackblueprint,
 [
@@ -47,7 +49,7 @@ val trackKits = [
 
 for kit in trackKits {
     recipes.remove(kit);
-    mods.immersiveengineering.Blueprint.addRecipe("track",kit*8,[<railcraft:track_parts>,<railcraft:track_parts>,<ore:dustRedstone>]);
+    mods.immersiveengineering.Blueprint.addRecipe("Track Kits",kit*8,[<railcraft:track_parts>,<railcraft:track_parts>,<ore:dustRedstone>]);
 }
 
 
