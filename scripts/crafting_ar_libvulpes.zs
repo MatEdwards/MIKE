@@ -1,13 +1,13 @@
 recipes.remove(<libvulpes:structuremachine>);
 recipes.addShaped(<libvulpes:structuremachine> * 8, [
 	[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], 
-	[<ore:plateIron>, <enderio:item_material:1>, <ore:plateIron>], 
+	[<ore:plateIron>, <immersiveengineering:metal_decoration0:4>, <ore:plateIron>], 
 	[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>]]);
 
 recipes.remove(<libvulpes:advstructuremachine>);
 recipes.addShaped(<libvulpes:advstructuremachine> * 8, [
 	[<ore:stickTitanium>, <ore:plateTitanium>, <ore:stickTitanium>], 
-	[<ore:plateTitanium>, <enderio:item_material:54>, <ore:plateTitanium>], 
+	[<ore:plateTitanium>, <immersiveengineering:metal_decoration0:5>, <ore:plateTitanium>], 
 	[<ore:stickTitanium>, <ore:plateTitanium>, <ore:stickTitanium>]]);
 
 recipes.remove(<libvulpes:coil0:2>);
