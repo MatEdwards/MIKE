@@ -57,6 +57,7 @@ val steelFan = <libvulpes:productfan:6>;
 val smallBattery = <libvulpes:battery>;
 val twoSmallBatteries = <libvulpes:battery:1>;
 val ironSheet = <ore:sheetIron>;
+val copperCoil = <immersiveengineering:metal_decoration0>;
 
 //Satellite ID chip
 recipes.remove(<advancedrocketry:satelliteidchip>);
@@ -181,3 +182,50 @@ recipes.addShapeless(<advancedrocketry:launchpad>*4,
 [<advancedrocketry:concrete>,<advancedrocketry:concrete>,<advancedrocketry:concrete>,<advancedrocketry:concrete>,
 <ore:dyeYellow>,<ore:dyeBlack>]
 );
+
+//Rocket fluid Unloader
+recipes.remove(<advancedrocketry:loader:5>);
+recipes.addShapeless(<advancedrocketry:loader:5>,
+[<libvulpes:hatch:2>,<contenttweaker:integrated_circuit>]);
+
+//Rocket Fluid Unloader
+recipes.remove(<advancedrocketry:loader:4>);
+recipes.addShapeless(<advancedrocketry:loader:4>,
+[<libvulpes:hatch:3>,<contenttweaker:integrated_circuit>]);
+
+//Railgun
+recipes.remove(<advancedrocketry:railgun>);
+recipes.addShaped(<advancedrocketry:railgun>,
+[
+	[null,<contenttweaker:integrated_circuit>,null],
+	[<contenttweaker:integrated_circuit>,<libvulpes:structuremachine>,<contenttweaker:integrated_circuit>],
+	[steelFan,copperCoil,steelFan]
+]);
+
+//Guidance Computer
+recipes.remove(<advancedrocketry:guidancecomputer>);
+recipes.addShaped(<advancedrocketry:guidancecomputer>,
+[
+	[<contenttweaker:integrated_circuit>,<ore:plateTitanium>,<contenttweaker:integrated_circuit>],
+	[<ore:dustRedstone>,<libvulpes:structuremachine>,<ore:dustRedstone>],
+	[<contenttweaker:integrated_circuit>,<ore:dustRedstone>,<contenttweaker:integrated_circuit>]
+]);
+
+//Holographic Planet Selector
+recipes.remove(<advancedrocketry:planetholoselector>);
+recipes.addShaped(<advancedrocketry:planetholoselector>,
+[
+	[<contenttweaker:integrated_circuit>,<minecraft:stone_button>,<contenttweaker:integrated_circuit>],
+	[<minecraft:lever>,<advancedrocketry:guidancecomputer>,<minecraft:lever>],
+	[<contenttweaker:integrated_circuit>,<advancedrocketry:satelliteprimaryfunction:1>,<contenttweaker:integrated_circuit>]
+]);
+
+//Composition Sensor
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:1>);
+recipes.addShaped(<advancedrocketry:satelliteprimaryfunction:1>,
+[
+	[optsensor,<ore:stickTitanium>,optsensor],
+	[<ore:plateTitanium>,<contenttweaker:integrated_circuit>,<ore:plateTitanium>]
+]);
+
+//
