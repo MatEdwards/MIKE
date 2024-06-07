@@ -228,4 +228,38 @@ recipes.addShaped(<advancedrocketry:satelliteprimaryfunction:1>,
 	[<ore:plateTitanium>,<contenttweaker:integrated_circuit>,<ore:plateTitanium>]
 ]);
 
-//
+//Beacon
+recipes.remove(<advancedrocketry:beacon>);
+recipes.addShaped(<advancedrocketry:beacon>,
+[
+	[null,copperCoil,null],
+	[<contenttweaker:integrated_circuit>,<libvulpes:structuremachine>,<contenttweaker:integrated_circuit>],
+	[<ore:sheetIron>,copperCoil,<ore:sheetIron>]
+]);
+
+//Crystallizer
+recipes.remove(<advancedrocketry:crystallizer>);
+recipes.addShaped(<advancedrocketry:crystallizer>,
+[
+	[<ore:gemQuartz>,userInterface,<ore:gemQuartz>],
+	[<contenttweaker:integrated_circuit>,<libvulpes:structuremachine>,<contenttweaker:integrated_circuit>],
+	[<minecraft:repeater>,<ore:plateTitanium>,<minecraft:repeater>]
+]);
+
+//Precision Assembler
+recipes.remove(<advancedrocketry:precisionassemblingmachine>);
+recipes.addShaped(<advancedrocketry:precisionassemblingmachine>,
+[
+	[<minecraft:repeater>,userInterface,<ore:gemDiamond>],
+	[<contenttweaker:integrated_circuit>,<libvulpes:structuremachine>,<contenttweaker:integrated_circuit>],
+	[<minecraft:furnace>,<ore:gearTitanium>,<minecraft:furnace>]
+]);
+
+//Centrifuge
+recipes.remove(<advancedrocketry:centrifuge>);
+recipes.addShaped(<advancedrocketry:centrifuge>,
+[
+	[<ore:rodTitanium>,userInterface,<ore:rodTitanium>],
+	[<contenttweaker:integrated_circuit>,<libvulpes:structuremachine>,<contenttweaker:integrated_circuit>],
+	[<ore:plateTitanium>,steelFan,<ore:plateTitanium>]
+]);
